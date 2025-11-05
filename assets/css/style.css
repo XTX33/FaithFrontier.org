@@ -582,3 +582,25 @@
     display: flex; /* show when toggled */
   }
 }
+.site-footer {
+  border-top: 1px solid var(--border-color, #e0e0e0);
+  background: var(--bg-alt, #fafafa);
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-muted, #555);
+}
+
+.footer-links a {
+  color: var(--link-color, #004b8d);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-credit {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+}
