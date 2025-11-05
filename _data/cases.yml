@@ -1,4 +1,36 @@
 # ==========================================
+#  Faith Frontier – 2024–2025 Civil & Administrative Matters
+# ==========================================
+
+- id: barber-v-njta-2024
+  title: "NJTA v. Barber – Civil Collection (ATL-DC-007956)"
+  court: "Atlantic County Superior Court – Special Civil Part (ATL-DC-007956)"
+  docket: "ATL-DC-007956"
+  status: "Active – Responding as Defendant"
+  filed_date: "2024-01-01"  # Replace with actual filing date
+  next_event: ""             # Optional future hearing or deadline
+  next_date: ""              # e.g., 2025-03-15
+  summary: >
+    Civil collection action brought by the New Jersey Turnpike Authority (NJTA)
+    against Devon Tyler Barber. This record tracks pleadings, filings, and
+    equitable responses submitted in the Atlantic County Superior Court.
+    Case concerns toll enforcement and administrative due process issues.
+  documents:
+    - label: "Complaint / Summons (Public Copy)"
+      type: "complaint"
+      url: "/assets/cases/barber-v-njta-2024/2024-njta-v-barber-complaint-public.pdf"
+    - label: "Defendant’s Answer & Objections"
+      type: "answer"
+      url: "/assets/cases/barber-v-njta-2024/2024-barber-answer-to-njta-complaint-public.pdf"
+    - label: "Key Court Orders"
+      type: "orders"
+      url: "/assets/cases/barber-v-njta-2024/2024-njta-v-barber-selected-orders-public.pdf"
+
+<!-- ===================================================== -->
+<!-- Add new case entries ABOVE this comment for 2024–2025 -->
+<!-- ===================================================== -->
+
+# ==========================================
 #  Faith Frontier – 2025 Civil & Administrative Matters
 # ==========================================
 
@@ -12,7 +44,6 @@
     Turnpike Authority in 2025. This may include toll enforcement disputes,
     correspondence, or filings for equitable or administrative review.
     Details will be added after public documents are uploaded.
-
   documents:
     # - label: "Correspondence or Filing"
     #   type: "document"
@@ -27,7 +58,6 @@
     Placeholder entry for 2025 matters involving the New Jersey Motor Vehicle Commission,
     including issues of license status, record accuracy, or administrative correspondence.
     Details will be documented once filings or agency responses are added.
-
   documents:
     # - label: "Agency Notice or Appeal"
     #   type: "notice"
@@ -42,7 +72,6 @@
     Placeholder entry for the 2025 matter titled Barber v. Tumelty, to be updated
     once pleadings or correspondence are uploaded. This may involve issues of professional
     conduct, civil accountability, or related equitable relief.
-
   documents:
     # - label: "Verified Complaint or Motion"
     #   type: "complaint"
@@ -57,7 +86,6 @@
     Placeholder entry for the 2025 matter involving CarMax Business Services, LLC.
     To be updated once complaint, correspondence, or administrative responses are filed.
     Potential subject areas include consumer, title, or financing disputes.
-
   documents:
     # - label: "Complaint or Correspondence"
     #   type: "complaint"
