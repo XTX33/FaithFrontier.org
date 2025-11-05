@@ -47,5 +47,15 @@ permalink: /archives/
       “Reclaim Your God-Given Identity, Rights &amp; Land” and
       “The Cornerstone of Our Soil.”
     </p>
+    <article class="case-card">
+  <h2><a href="{{ '/archives/thomas-becket-proclamation/' | relative_url }}">
+    Thomas Becket Religious Liberty Proclamation (2020)
+  </a></h2>
+  <p class="text-muted">
+    Full text of the December 28, 2020 Presidential Proclamation commemorating
+    the 850th anniversary of the martyrdom of Saint Thomas Becket and affirming
+    religious liberty.
+  </p>
+</article>
   </article>
 </section>
