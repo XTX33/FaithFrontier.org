@@ -359,3 +359,40 @@
     margin-top: 1rem;
   }
 }
+.hero {
+  /* deeper blue but still legible */
+  background: radial-gradient(circle at top left, #1e293b, #020617);
+  color: #ffffff;
+  text-align: center;
+  padding: 4.5rem 1.5rem 3.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero-lead {
+  font-size: 1.07rem;
+  line-height: 1.8;
+  color: #e5e7eb;
+  max-width: 720px;
+  margin: 0 auto 1.9rem;
+}
+
+/* Hero-specific button contrast */
+.hero .btn-primary {
+  background: var(--brand-accent);
+  color: #ffffff;
+}
+
+.hero .btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.hero .btn-ghost {
+  color: #e5e7eb;                         /* full light text */
+  border-color: rgba(248, 250, 252, 0.72);/* lighter border */
+  background: rgba(15, 23, 42, 0.4);
+}
+
+.hero .btn-ghost:hover {
+  background: rgba(15, 23, 42, 0.8);
+  border-color: #f9fafb;
+}
