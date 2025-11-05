@@ -15,6 +15,11 @@
   --bg-card: #ffffff;
   --bg-alt: #e5e7eb;
 
+  /* Header-specific (strong contrast) */
+  --header-bg: var(--brand-dark);
+  --header-text: #f9fafb;
+  --header-border: #020617;
+
   /* Text colors */
   --text-main: #111827;
   --text-muted: #4b5563;
@@ -94,7 +99,66 @@ a:hover {
   top: 0.75rem;
 }
 
-/* Buttons (used across site) */
+/* ==========================
+   Header & Navigation
+   ========================== */
+
+/* Outer header bar */
+.site-header {
+  background: var(--header-bg);
+  color: var(--header-text);
+  border-bottom: 1px solid var(--header-border);
+}
+
+/* Inner container if you use .nav-inner / .container */
+.site-header .nav-inner,
+.site-header .container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Site logo / title */
+.site-header .site-logo {
+  color: var(--header-text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Nav links (desktop) */
+.site-header .ff-nav a,
+.site-header nav a {
+  color: var(--header-text);
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 0.25rem 0.4rem;
+}
+
+.site-header .ff-nav a:hover,
+.site-header nav a:hover {
+  color: var(--brand-accent-light);
+  text-decoration: underline;
+}
+
+/* Mobile toggle */
+.site-header .ff-nav-toggle,
+.site-header .ff-nav-toggle-icon {
+  color: var(--header-text);
+}
+
+/* On dark header, keep focus outlines visible */
+.site-header a:focus,
+.site-header button:focus {
+  outline: 2px solid var(--brand-accent-light);
+  outline-offset: 2px;
+}
+
+/* ==========================
+   Buttons
+   ========================== */
 
 .btn-primary,
 .btn-ghost {
@@ -132,7 +196,10 @@ a:hover {
   background: rgba(15, 23, 42, 0.03);
 }
 
-/* Generic cards */
+/* ==========================
+   Cards & Case / Essay blocks
+   ========================== */
+
 .card,
 .case-card,
 .essay-card {
@@ -177,7 +244,9 @@ a:hover {
   color: var(--text-muted);
 }
 
-/* Footer base */
+/* ==========================
+   Footer
+   ========================== */
 
 .site-footer {
   border-top: 1px solid var(--border-color);
