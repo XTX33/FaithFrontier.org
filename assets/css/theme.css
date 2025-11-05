@@ -1,7 +1,8 @@
 /* =======================================
-   Faith Frontier Theme Variables
+   Faith Frontier Theme – Tokens & Base
    ======================================= */
 
+/* Design tokens */
 :root {
   /* Brand palette */
   --brand-dark: #111111;
@@ -31,11 +32,8 @@
   --transition: all 0.25s ease;
 }
 
-/* =======================================
-   Dark Mode Overrides
-   Toggle via class="light" on <html>
-   ======================================= */
-
+/* Dark mode overrides
+   (current JS toggles a `light` class — keep the name to avoid breaking) */
 html.light {
   --bg-body: #121212;
   --bg-card: #1e1e1e;
@@ -48,44 +46,107 @@ html.light {
   --shadow: 0 2px 8px rgba(255, 255, 255, 0.06);
 }
 
-/* =======================================
-   Theme-level utilities (no layout)
-   ======================================= */
+/* Global reset / base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-/* Brand buttons (used in hero, cards, etc.) */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  color: var(--text-main);
+  line-height: 1.6;
+  background: var(--bg-body);
+}
+
+main#main {
+  max-width: 1080px;
+  margin: 1.5rem auto 3rem;
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  background: var(--brand-dark);
+  color: var(--brand-light);
+  z-index: 100;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0.75rem;
+}
+
+/* Buttons (used across site) */
+
 .btn-primary,
 .btn-ghost {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.6rem 1.3rem;
   border-radius: 999px;
   font-size: 0.95rem;
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
+  border: 1px solid transparent;
   transition: var(--transition);
 }
 
 .btn-primary {
   background: var(--brand-accent);
-  color: #fff;
-  border: none;
+  color: #ffffff;
+  box-shadow: var(--shadow);
 }
 
 .btn-primary:hover {
   background: var(--link-hover);
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn-ghost {
   background: transparent;
-  color: inherit;
-  border: 1px solid currentColor;
+  color: var(--text-main);
+  border-color: var(--border-color);
 }
 
 .btn-ghost:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(0, 0, 0, 0.03);
 }
 
-/* Cards / Sections */
+/* Generic cards */
 .card,
 .case-card,
 .essay-card {
@@ -98,13 +159,45 @@ html.light {
 }
 
 .card:hover,
-.case-card:hover {
+.case-card:hover,
+.essay-card:hover {
   transform: translateY(-2px);
 }
 
-/* Tag Pills (case themes, etc.) */
+/* Tag pills (used for public-trust tags, etc.) */
 .tag-pill {
   background: var(--bg-alt);
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: var(--text-muted);
   transition: var(--transition);
+}
+
+/* Simple helpers */
+.text-muted {
+  color: var(--text-muted);
+}
+
+.section-intro {
+  max-width: 720px;
+  margin: 0 auto 2rem;
+  text-align: left;
+}
+
+.section-intro .section-lead {
+  color: var(--text-muted);
+}
+
+/* Footer base (structure; color can be overridden in layout CSS) */
+.site-footer {
+  border-top: 1px solid var(--border-color);
+  margin-top: 3rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background: var(--bg-alt);
 }
