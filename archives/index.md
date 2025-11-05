@@ -9,30 +9,43 @@ permalink: /archives/
   <p class="section-lead">
     A curated archive of legacy writings, declarations, and long-form teaching
     from <strong>Tiller.Earth</strong> and the Faith Frontier Ecclesiastical Trust.
-    These records are preserved for transparency, study, and testimony.
+    These materials are preserved for transparency, study, and testimony.
   </p>
   <p class="text-muted">
-    New Jersey case filings and court records remain under the
-    <a href="/cases/">Case Records</a> section. The archives focus on
-    ecclesiastical, educational, and covenant materials.
+    Looking for New Jersey court matters? See
+    <a href="{{ '/cases/' | relative_url }}">Case Records</a>.
+    The archives focus on ecclesiastical, educational, and covenant-based work.
   </p>
 </section>
 
 <section class="case-list">
   <article class="case-card">
-    <h2><a href="/archives/ecclesiastical-deed-poll/">Ecclesiastical Deed Poll (EDP)</a></h2>
+    <header>
+      <h2>
+        <a href="{{ '/archives/ecclesiastical-deed-poll/' | relative_url }}">
+          Ecclesiastical Deed Poll (EDP)
+        </a>
+      </h2>
+    </header>
     <p class="text-muted">
-      Full public text, commentary, and related covenant documents for the
-      Faith Frontier Ecclesiastical Deed Poll.
+      Public overview, key excerpts, and historical context for the Faith Frontier
+      Ecclesiastical Deed Poll, with a link to the full archival text.
     </p>
   </article>
 
   <article class="case-card">
-    <h2><a href="/archives/tiller-earth/">Tiller.Earth Legacy Writings</a></h2>
+    <header>
+      <h2>
+        <a href="{{ '/archives/tiller-earth/' | relative_url }}">
+          Tiller.Earth Legacy Writings
+        </a>
+      </h2>
+    </header>
     <p class="text-muted">
       Selected homilies, field notes, and law–faith reflections originally
-      published on Tiller.Earth (e.g., "Reclaim Your God-Given Identity,
-      Rights &amp; Land", "The Cornerstone of Our Soil", and related posts).
+      published on Tiller.Earth, including pieces like
+      “Reclaim Your God-Given Identity, Rights &amp; Land” and
+      “The Cornerstone of Our Soil.”
     </p>
   </article>
 </section>
