@@ -391,3 +391,45 @@
     margin-top: 1rem;
   }
 }
+/* Faith CTAs */
+
+.faith-cta-grid {
+  max-width: 1080px;
+  margin: 2rem auto 3rem;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.faith-cta-card {
+  background: #00cccc; /* robin egg blue */
+  color: #f9fafb;
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.14);
+}
+
+.faith-cta-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.faith-cta-card p {
+  margin-bottom: 0.75rem;
+}
+
+.faith-cta-card .btn-primary,
+.faith-cta-card .btn-ghost {
+  margin-top: 0.4rem;
+}
+
+.faith-cta-card .btn-ghost {
+  background: rgba(0, 79, 79, 0.12);
+  border-color: rgba(249, 250, 251, 0.7);
+  color: #f9fafb;
+}
+
+.faith-cta-card .btn-ghost:hover {
+  background: rgba(0, 79, 79, 0.25);
+}
