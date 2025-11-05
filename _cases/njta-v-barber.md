@@ -1,23 +1,35 @@
 ---
 layout: case
+
 title: "New Jersey Turnpike Authority v. Devon Tyler Barber"
 short_title: "NJTA v. Barber"
+
+plaintiff: "New Jersey Turnpike Authority"
+defendant: "Devon Tyler Barber"
+
+court: "Superior Court of New Jersey — Law Division, Special Civil Part"
+venue: "Atlantic County"
 docket: "ATL-DC-007956-25"
-court: "Superior Court of New Jersey — Law Division, Special Civil Part (Atlantic County)"
+case_type: "Special Civil Part — Toll/Collections"
 judge: "Hon. Dean R. Marcolongo, J.S.C."
+
 role: "Defendant / Counter-Plaintiff"
+
 status: "Active"
 track: "Track 1 — Discovery Phase"
 filed_date: 2025-08-19
 next_event: "Discovery responses due from NJTA"
 next_date: 2025-11-27
+
 location: "Atlantic County Civil Courthouse, 1201 Bacharach Blvd., Atlantic City, NJ"
+
 public_trust_issue: true
 public_trust_tags:
   - "toll-fee proportionality"
   - "due-process / ADA access"
   - "data-security / foreign vendor risk"
   - "fiduciary public trust"
+
 summary: >
   The New Jersey Turnpike Authority (“NJTA”) filed a Special Civil Part action
   seeking $5,109.45 in alleged unpaid tolls and administrative fees. Devon Tyler
@@ -26,12 +38,14 @@ summary: >
   constitutional safeguards and the public-trust doctrine. The matter is now
   proceeding under Judge Dean R. Marcolongo’s October 27, 2025 order placing the
   case on Track 1 and permitting limited discovery.
+
 faith_note: >
   This case examines whether a public authority can lawfully balance revenue
   collection with the moral and constitutional obligation to treat citizens
   fairly. It frames toll enforcement as a test of stewardship under the
   public-trust doctrine: government may administer what belongs to the people,
   but it must do so with transparency, reason, and restraint.
+
 documents:
   - label: "Summons"
     date: 2025-08-19
@@ -100,14 +114,14 @@ accommodation request to confirm scheduling and docketing accuracy.
 | Date | Event | Notes / Linked Docs |
 |------|--------|---------------------|
 | **2025-03-28** | Congressman Gottheimer Letter to NJTA Chair O’Connor | Raises national-security and data-privacy concerns about TransCore’s foreign ownership — forms part of the basis for Barber’s discovery. [[PDF]]({{ '/docs/njta-barber/2025-03-28-gottheimer-letter.pdf' | relative_url }}) |
-| **2025-08-19** | **Complaint Filed by NJTA** | Seeks $5,109.45 for tolls and administrative fees. [[PDF]]({{ '/docs/njta-barber/2025-08-19-complaint.pdf' | relative_url }}) |
-| **2025-08-19** | **Summons Issued** | ATL-DC-007956-25; service to Barber. [[PDF]]({{ '/docs/njta-barber/2025-08-19-summons.pdf' | relative_url }}) |
-| **2025-09-03** | **First Appearance Filed** | Confirms participation and intent to defend. [[PDF]]({{ '/docs/njta-barber/2025-09-03-first-appearance.pdf' | relative_url }}) |
-| **2025-10-08** | **Amended Answer & Counterclaim Filed** | Raises constitutional and public-trust arguments. [[PDF]]({{ '/docs/njta-barber/2025-10-08-counterclaim.pdf' | relative_url }}) |
-| **2025-10-08** | **Proposed Order for Relief Submitted** | Requests dismissal, declaratory findings, and equitable relief. [[PDF]]({{ '/docs/njta-barber/2025-10-08-proposed-order.pdf' | relative_url }}) |
-| **2025-10-27** | **Court Order (Discovery Schedule)** | Judge Marcolongo authorizes limited discovery and sets deadlines. [[PDF]]({{ '/docs/njta-barber/2025-10-27-court-order.pdf' | relative_url }}) |
-| **2025-10-27** | **Discovery Packet Filed** | Interrogatories, notice to produce, and requests for admissions served on NJTA. [[PDF]]({{ '/docs/njta-barber/2025-10-27-discovery-requests.pdf' | relative_url }}) |
-| **2025-11-03** | **ADA Accommodation Request Filed** | Clarifies deadline calculations and requests accessibility support. [[PDF]]({{ '/docs/njta-barber/2025-11-03-ada-correspondence.pdf' | relative_url }}) |
+| **2025-08-19** | Complaint Filed by NJTA | Seeks $5,109.45 for tolls and administrative fees. [[PDF]]({{ '/docs/njta-barber/2025-08-19-complaint.pdf' | relative_url }}) |
+| **2025-08-19** | Summons Issued | ATL-DC-007956-25; service to Barber. [[PDF]]({{ '/docs/njta-barber/2025-08-19-summons.pdf' | relative_url }}) |
+| **2025-09-03** | First Appearance Filed | Confirms participation and intent to defend. [[PDF]]({{ '/docs/njta-barber/2025-09-03-first-appearance.pdf' | relative_url }}) |
+| **2025-10-08** | Amended Answer & Counterclaim Filed | Raises constitutional and public-trust arguments. [[PDF]]({{ '/docs/njta-barber/2025-10-08-counterclaim.pdf' | relative_url }}) |
+| **2025-10-08** | Proposed Order for Relief Submitted | Requests dismissal, declaratory findings, and equitable relief. [[PDF]]({{ '/docs/njta-barber/2025-10-08-proposed-order.pdf' | relative_url }}) |
+| **2025-10-27** | Court Order (Discovery Schedule) | Judge Marcolongo authorizes limited discovery and sets deadlines. [[PDF]]({{ '/docs/njta-barber/2025-10-27-court-order.pdf' | relative_url }}) |
+| **2025-10-27** | Discovery Packet Filed | Interrogatories, notice to produce, and requests for admissions served on NJTA. [[PDF]]({{ '/docs/njta-barber/2025-10-27-discovery-requests.pdf' | relative_url }}) |
+| **2025-11-03** | ADA Accommodation Request Filed | Clarifies deadline calculations and requests accessibility support. [[PDF]]({{ '/docs/njta-barber/2025-11-03-ada-correspondence.pdf' | relative_url }}) |
 
 ---
 
@@ -130,12 +144,3 @@ accommodation request to confirm scheduling and docketing accuracy.
    The matter underscores the importance of clear notices, realistic deadlines, and
    reasonable accommodations so that self-represented litigants can meaningfully
    participate in their own cases.
-
----
-
-## Disclaimer
-
-This summary is provided for informational and educational purposes only.
-It is not an official court record and does not constitute legal advice.
-For authoritative docket information, visit the
-[New Jersey Courts eCourts Public Access Portal](https://www.njcourts.gov).
