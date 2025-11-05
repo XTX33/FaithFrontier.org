@@ -1,72 +1,76 @@
-# ==========================================
-#  Faith Frontier – Case Index
-#  Unified Data Source for /cases/
-# ==========================================
+# ------------------------------------------
+# NJTA – Toll / Enforcement / Account Matters
+# ------------------------------------------
 
-- id: barber-nj-2015-09-indictment
-  title: "State v. Barber – Indictment & Conviction (2015)"
-  court: "Superior Court of New Jersey, Law Division – Criminal, Atlantic County"
-  docket: "15-09-XXXX"
-  status: "Post-conviction litigation pending"
-  filed_date: "2015-09-01"
-  next_event: "PCR briefing due"
-  next_date: "2025-02-15"
+- id: barber-njta
+  title: "Barber – New Jersey Turnpike Authority Matters"
+  court: "To be documented"
+  docket: "TBD"
+  status: "To be entered"
   summary: >
-    Criminal prosecution originally filed in 2015 in Atlantic County.
-    This record tracks the indictment, judgment of conviction, sentencing order,
-    and subsequent petitions for post-conviction relief under N.J. Ct. R. 3:22.
-    It serves as the procedural foundation for the unified PCR and future appeal filings.
+    Placeholder for matters involving Devon Tyler Barber and the New Jersey Turnpike Authority
+    (NJTA). This entry will be updated once specific notices, correspondence, or court filings
+    are uploaded and described.
 
   documents:
-    - label: "Judgment of Conviction (Public Redacted)"
-      type: "judgment-of-conviction"
-      url: "/assets/cases/barber-nj-2015-09-indictment/2016-nj-super-law-atlantic-state-v-barber-joc-public-redacted.pdf"
-    - label: "Sentencing Order (Public Redacted)"
-      type: "sentencing-order"
-      url: "/assets/cases/barber-nj-2015-09-indictment/2016-nj-super-law-atlantic-state-v-barber-sentencing-order-public-redacted.pdf"
+    # Add items here once you upload PDFs under assets/cases/barber-njta/
+    # - label: "NJTA Correspondence – [Short Description]"
+    #   type: "correspondence"
+    #   url: "/assets/cases/barber-njta/2024-[description].pdf"
 
-# ------------------------------------------------------
+# ------------------------------------------
+# NJMVC – Motor Vehicle / License / Record Matters
+# ------------------------------------------
 
-- id: barber-nj-pcr-2024
-  title: "State v. Barber – Post-Conviction Relief under R. 3:22 (2024)"
-  court: "Superior Court of New Jersey, Law Division – Criminal, Atlantic County"
-  docket: "PCR-2024-ATL"
-  status: "Filed – awaiting judicial decision"
-  filed_date: "2024-11-01"
-  next_event: "State’s response due"
-  next_date: "2025-01-10"
+- id: barber-njmvc
+  title: "Barber – New Jersey Motor Vehicle Commission Matters"
+  court: "To be documented"
+  docket: "TBD"
+  status: "To be entered"
   summary: >
-    Petition for post-conviction relief filed pursuant to N.J. Ct. R. 3:22,
-    asserting ineffective assistance of counsel, failure to investigate mitigating
-    evidence, and violations of the Sixth and Fourteenth Amendments.
-    This petition consolidates related issues from Atlantic County dockets
-    ATL-22-002292, ATL-22-002313, and ATL-24-001934.
+    Placeholder for matters involving Devon Tyler Barber and the New Jersey Motor Vehicle
+    Commission (NJMVC). This may include licensing, records, notices, or any related disputes.
+    Details will be filled in after the underlying documents are uploaded.
 
   documents:
-    - label: "PCR Petition (Public Redacted)"
-      type: "pcr-petition"
-      url: "/assets/cases/barber-nj-pcr-2024/2024-nj-super-law-atlantic-state-v-barber-pcr-petition-public-redacted.pdf"
-    - label: "Brief in Support (Public Redacted)"
-      type: "pcr-brief"
-      url: "/assets/cases/barber-nj-pcr-2024/2024-nj-super-law-atlantic-state-v-barber-pcr-brief-public-redacted.pdf"
+    # - label: "NJMVC Notice – [Short Description]"
+    #   type: "notice"
+    #   url: "/assets/cases/barber-njmvc/2024-[description].pdf"
 
-# ------------------------------------------------------
+# ------------------------------------------
+# Barber v. Tumelty
+# ------------------------------------------
 
-- id: barber-nj-appeal-2025
-  title: "State v. Barber – Anticipated Appeal from PCR Decision (2025)"
-  court: "Superior Court of New Jersey, Appellate Division"
-  docket: "A-000000-25T1"
-  status: "Anticipated filing – notice to follow"
-  filed_date: "2025-03-01"
-  next_event: "Preparation of notice of appeal and case information statement"
-  next_date: ""
+- id: barber-v-tumelty
+  title: "Barber v. Tumelty"
+  court: "To be documented"
+  docket: "TBD"
+  status: "To be entered"
   summary: >
-    Anticipated appellate proceedings following any denial or partial denial of
-    post-conviction relief in the Atlantic County Law Division.
-    This entry will track notices of appeal, appellate briefs, certifications,
-    and any published or unpublished opinions by the Appellate Division.
+    Placeholder for Barber v. Tumelty. This entry will summarize the nature of the dispute,
+    forum, and procedural posture once the complaint and related filings are uploaded and
+    described in more detail.
 
   documents:
-    - label: "Notice of Appeal (Template Placeholder)"
-      type: "notice-of-appeal"
-      url: "/assets/cases/barber-nj-appeal-2025/2025-nj-super-app-state-v-barber-notice-of-appeal-public.pdf"
+    # - label: "Complaint – Barber v. Tumelty"
+    #   type: "complaint"
+    #   url: "/assets/cases/barber-v-tumelty/2025-complaint.pdf"
+
+# ------------------------------------------
+# Barber v. CarMax
+# ------------------------------------------
+
+- id: barber-v-carmax
+  title: "Barber v. CarMax"
+  court: "To be documented"
+  docket: "TBD"
+  status: "To be entered"
+  summary: >
+    Placeholder for Barber v. CarMax. This will be updated to reflect the correct court,
+    docket number, and issues in dispute after the underlying documents are added to the
+    repository.
+
+  documents:
+    # - label: "Complaint – Barber v. CarMax"
+    #   type: "complaint"
+    #   url: "/assets/cases/barber-v-carmax/2025-complaint.pdf"
