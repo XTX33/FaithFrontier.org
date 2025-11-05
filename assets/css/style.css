@@ -10,7 +10,7 @@
   box-shadow: var(--shadow);
   position: sticky;
   top: 0;
-  z-index: 50;
+  z-index: 40; /* enough to be above content, below modals if any */
 }
 
 .nav-wrapper {
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  position: relative;
+  position: relative; /* anchors the mobile nav dropdown */
 }
 
 .logo img {
@@ -39,8 +39,7 @@
 /* Desktop nav */
 
 .site-nav {
-  display: flex;
-  align-items: center;
+  /* base styles; layout controlled via media queries */
 }
 
 .site-nav ul {
@@ -71,7 +70,8 @@
   cursor: pointer;
   font-size: 1.5rem;
   line-height: 1;
-  display: none; /* shown on mobile below */
+  display: none; /* shown on mobile */
+  padding: 0.25rem 0.4rem;
 }
 
 /* Mobile behavior */
@@ -115,6 +115,10 @@
     position: static;
     max-height: none;
     overflow: visible;
+  }
+
+  .nav-toggle {
+    display: none;
   }
 }
 
@@ -276,6 +280,28 @@
   flex-wrap: wrap;
 }
 
+/* CTA buttons (Follow the Journey panel) */
+
+.cta .btn-primary {
+  background: #0369a1;
+  color: #ffffff;
+}
+
+.cta .btn-primary:hover {
+  background: #0284c7;
+}
+
+.cta .btn-ghost {
+  color: #e5e7eb;
+  border-color: rgba(248, 250, 252, 0.75);
+  background: transparent;
+}
+
+.cta .btn-ghost:hover {
+  background: rgba(15, 23, 42, 0.85);
+  border-color: #f9fafb;
+}
+
 /* =======================================
    Cases / Case Detail
    ======================================= */
@@ -391,6 +417,7 @@
     margin-top: 1rem;
   }
 }
+
 /* Faith CTAs */
 
 .faith-cta-grid {
