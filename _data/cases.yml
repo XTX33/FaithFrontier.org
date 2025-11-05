@@ -6,15 +6,14 @@
   title: "NJTA v. Barber – Civil Collection (ATL-DC-007956)"
   court: "Atlantic County Superior Court – Special Civil Part (ATL-DC-007956)"
   docket: "ATL-DC-007956"
-  status: "Active – Responding as Defendant"
-  filed_date: "2024-01-01"  # Replace with actual filing date
-  next_event: ""             # Optional future hearing or deadline
-  next_date: ""              # e.g., 2025-03-15
+  status: "Closed / Superseded by 2025 Docket"
+  filed_date: "2024-01-01"
+  next_event: ""
+  next_date: ""
   summary: >
     Civil collection action brought by the New Jersey Turnpike Authority (NJTA)
-    against Devon Tyler Barber. This record tracks pleadings, filings, and
-    equitable responses submitted in the Atlantic County Superior Court.
-    Case concerns toll enforcement and administrative due process issues.
+    against Devon Tyler Barber. This earlier record references pre-2025 filings
+    or administrative correspondence preceding docket ATL-DC-007956-25.
   documents:
     - label: "Complaint / Summons (Public Copy)"
       type: "complaint"
@@ -26,28 +25,66 @@
       type: "orders"
       url: "/assets/cases/barber-v-njta-2024/2024-njta-v-barber-selected-orders-public.pdf"
 
-<!-- ===================================================== -->
-<!-- Add new case entries ABOVE this comment for 2024–2025 -->
-<!-- ===================================================== -->
+# =====================================================
+# Add new case entries ABOVE this comment for 2024–2025
+# =====================================================
+
 
 # ==========================================
 #  Faith Frontier – 2025 Civil & Administrative Matters
 # ==========================================
 
 - id: barber-v-njta-2025
-  title: "Barber v. New Jersey Turnpike Authority (NJTA)"
-  court: "To be determined"
-  docket: "TBD"
-  status: "To be entered"
+  title: "New Jersey Turnpike Authority v. Barber"
+  court: "Superior Court of New Jersey, Special Civil Part – Atlantic County"
+  docket: "ATL-DC-007956-25"
+  status: "Active – Reinstated; Settlement Conference Scheduled"
+  filed_date: "2025-08-19"
+  next_event: "Settlement Conference"
+  next_date: "2026-01-08"
   summary: >
-    Placeholder entry for matters involving Devon Tyler Barber and the New Jersey
-    Turnpike Authority in 2025. This may include toll enforcement disputes,
-    correspondence, or filings for equitable or administrative review.
-    Details will be added after public documents are uploaded.
+    Civil action initiated by the New Jersey Turnpike Authority on August 19, 2025,
+    seeking $5,109.45 in alleged toll-related damages. Defendant Devon T. Barber filed
+    an Answer, Motion for Dismissal, and subsequent reply briefs. The Court reinstated
+    the case on October 27, 2025, and scheduled a Settlement Conference for January 8, 2026
+    before Hon. Dean R. Marcolongo, J.S.C.
   documents:
-    # - label: "Correspondence or Filing"
-    #   type: "document"
-    #   url: "/assets/cases/barber-v-njta-2025/[filename].pdf"
+    - label: "Complaint (08/19/2025)"
+      type: "complaint"
+      url: "/assets/cases/barber-v-njta-2025/2025-08-19-njta-v-barber-complaint.pdf"
+    - label: "Answer / First Appearance (09/03/2025)"
+      type: "answer"
+      url: "/assets/cases/barber-v-njta-2025/2025-09-03-barber-answer.pdf"
+    - label: "Motion for Dismissal (09/06/2025)"
+      type: "motion"
+      url: "/assets/cases/barber-v-njta-2025/2025-09-06-motion-to-dismiss.pdf"
+    - label: "Order Denying Dismissal (10/27/2025)"
+      type: "order"
+      url: "/assets/cases/barber-v-njta-2025/2025-10-27-order-denied.pdf"
+    - label: "Proceeding Documents (10/27/2025)"
+      type: "proceeding"
+      url: "/assets/cases/barber-v-njta-2025/2025-10-27-proceeding-documents.pdf"
+    - label: "Settlement Conference Notice (01/08/2026)"
+      type: "notice"
+      url: "/assets/cases/barber-v-njta-2025/2025-10-28-settlement-notice.pdf"
+
+# ---------- Invisible helper guide ----------
+# Copy from here ↓ for new cases
+#
+# - id: barber-v-[newparty]-2025
+#   title: "Barber v. [New Party]"
+#   court: "To be determined"
+#   docket: "TBD"
+#   status: "To be entered"
+#   filed_date: "YYYY-MM-DD"
+#   summary: >
+#     Placeholder for future filings. Update once complaint or agency notice is docketed.
+#   documents:
+#     # - label: "Complaint or Filing"
+#     #   type: "complaint"
+#     #   url: "/assets/cases/barber-v-[newparty]-2025/[filename].pdf"
+# --------------------------------------------
+
 
 - id: barber-v-njmvc-2025
   title: "Barber v. New Jersey Motor Vehicle Commission (NJMVC)"
@@ -57,7 +94,6 @@
   summary: >
     Placeholder entry for 2025 matters involving the New Jersey Motor Vehicle Commission,
     including issues of license status, record accuracy, or administrative correspondence.
-    Details will be documented once filings or agency responses are added.
   documents:
     # - label: "Agency Notice or Appeal"
     #   type: "notice"
