@@ -1,5 +1,5 @@
 // main.js — Faith Frontier / Case Portal
-// Lightweight, dependency-free utilities for navigation, theming, and accessibility.
+// Lightweight, dependency-free utilities for navigation and accessibility.
 
 (function () {
   'use strict';
@@ -12,7 +12,9 @@
   };
 
   var $$ = function (selector, scope) {
-    return Array.prototype.slice.call((scope || document).querySelectorAll(selector));
+    return Array.prototype.slice.call(
+      (scope || document).querySelectorAll(selector)
+    );
   };
 
   var isGithubLikeHost = function () {
@@ -39,74 +41,6 @@
   };
 
   // -----------------------------
-  // Theme / Dark mode toggle
-  // CSS is driven by theme.css using :root and html.light overrides
-  // We treat:
-  //   mode = 'dark'  → html.classList.add('light')
-  //   mode = 'light' → html.classList.remove('light')
-  // -----------------------------
-  var THEME_KEY = 'ff-theme'; // localStorage key
-
-  var applyTheme = function (mode) {
-    var root = document.documentElement;
-    var btn = $('.theme-toggle');
-
-    if (mode === 'dark') {
-      root.classList.add('light'); // dark palette is defined on html.light
-      if (btn) {
-        btn.textContent = '☀️';
-        btn.setAttribute('aria-label', 'Switch to light mode');
-      }
-    } else {
-      root.classList.remove('light');
-      if (btn) {
-        btn.textContent = '🌓';
-        btn.setAttribute('aria-label', 'Switch to dark mode');
-      }
-    }
-  };
-
-  var detectInitialTheme = function () {
-    try {
-      var stored = localStorage.getItem(THEME_KEY);
-      if (stored === 'dark' || stored === 'light') {
-        return stored;
-      }
-    } catch (e) {
-      // localStorage might be blocked — ignore
-    }
-
-    // Fallback: prefers-color-scheme media query
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      return 'dark';
-    }
-    return 'light';
-  };
-
-  var initThemeToggle = function () {
-    var btn = $('.theme-toggle');
-    if (!btn) {
-      // Still apply initial theme without a visible toggle
-      applyTheme(detectInitialTheme());
-      return;
-    }
-
-    var mode = detectInitialTheme();
-    applyTheme(mode);
-
-    btn.addEventListener('click', function () {
-      var current = document.documentElement.classList.contains('light') ? 'dark' : 'light';
-      var next = current === 'dark' ? 'light' : 'dark';
-      applyTheme(next);
-      try {
-        localStorage.setItem(THEME_KEY, next);
-      } catch (e) {
-        // ignore
-      }
-    });
-  };
-
-  // -----------------------------
   // Highlight active nav item
   // Matches current path to <a href="..."> in .site-nav
   // -----------------------------
@@ -120,7 +54,8 @@
       var href = link.getAttribute('href');
       if (!href) return;
 
-      var linkPath = href.replace(/^https?:\/\/[^/]+/, ''); // strip origin
+      // Strip origin if absolute URL is used
+      var linkPath = href.replace(/^https?:\/\/[^/]+/, '');
       linkPath = linkPath.replace(/\/+$/, '');
 
       if (linkPath && linkPath === path) {
@@ -137,7 +72,7 @@
     document.addEventListener('click', function (evt) {
       var target = evt.target;
 
-      // Walk up if icon/span inside link
+      // Walk up DOM tree if inside an <a>
       while (target && target.tagName !== 'A') {
         target = target.parentElement;
       }
@@ -152,7 +87,11 @@
 
       evt.preventDefault();
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      el.focus({ preventScroll: true });
+
+      // Try to move focus for accessibility, if element can be focused
+      if (typeof el.focus === 'function') {
+        el.focus({ preventScroll: true });
+      }
     });
   };
 
@@ -205,7 +144,8 @@
     toggles.forEach(function (btn) {
       btn.addEventListener('click', function () {
         var targetSelector = btn.getAttribute('data-target');
-        var timeline = targetSelector ? $(targetSelector) : btn.closest('.timeline-wrapper');
+        var timeline =
+          targetSelector ? $(targetSelector) : btn.closest('.timeline-wrapper');
         if (!timeline) return;
 
         var expanded = btn.getAttribute('aria-expanded') === 'true';
@@ -222,7 +162,6 @@
   // -----------------------------
   document.addEventListener('DOMContentLoaded', function () {
     initMobileNav();
-    initThemeToggle();
     initActiveNav();
     initSmoothScroll();
     initExternalLinks();
