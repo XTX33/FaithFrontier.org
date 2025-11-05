@@ -10,7 +10,7 @@ defendant: "Devon Tyler Barber"
 court: "Superior Court of New Jersey — Law Division, Special Civil Part"
 venue: "Atlantic County"
 docket: "ATL-DC-007956-25"
-case_type: "Special Civil Part — Toll/Collections"
+case_type: "Special Civil Part — Toll / Collections"
 judge: "Hon. Dean R. Marcolongo, J.S.C."
 
 role: "Defendant / Counter-Plaintiff"
@@ -26,8 +26,8 @@ location: "Atlantic County Civil Courthouse, 1201 Bacharach Blvd., Atlantic City
 public_trust_issue: true
 public_trust_tags:
   - "toll-fee proportionality"
-  - "due-process / ADA access"
-  - "data-security / foreign vendor risk"
+  - "due process / ADA access"
+  - "data security / foreign vendor risk"
   - "fiduciary public trust"
 
 summary: >
@@ -35,9 +35,9 @@ summary: >
   seeking $5,109.45 in alleged unpaid tolls and administrative fees. Devon Tyler
   Barber, appearing pro se, filed a verified counterclaim asserting that NJTA’s
   enforcement and fee structure exceed statutory authority and violate
-  constitutional safeguards and the public-trust doctrine. The matter is now
-  proceeding under Judge Dean R. Marcolongo’s October 27, 2025 order placing the
-  case on Track 1 and permitting limited discovery.
+  constitutional safeguards and the public-trust doctrine. The matter is
+  proceeding under Judge Dean R. Marcolongo’s October 27 2025 order placing the
+  case on Track 1 and authorizing limited discovery.
 
 faith_note: >
   This case examines whether a public authority can lawfully balance revenue
@@ -49,31 +49,34 @@ faith_note: >
 documents:
   - label: "Summons"
     date: 2025-08-19
-    path: "/docs/njta-barber/2025-08-19-summons.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-08-19_Summons.pdf"
   - label: "Plaintiff’s Complaint"
     date: 2025-08-19
-    path: "/docs/njta-barber/2025-08-19-complaint.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-08-19_Complaint.pdf"
   - label: "Defendant’s First Appearance"
     date: 2025-09-03
-    path: "/docs/njta-barber/2025-09-03-first-appearance.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-09-03_Answer-FirstAppearance.pdf"
   - label: "Amended Answer & Counterclaim"
     date: 2025-10-08
-    path: "/docs/njta-barber/2025-10-08-counterclaim.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-10-08_Counterclaim.pdf"
   - label: "Proposed Order for Counterclaim Relief"
     date: 2025-10-08
-    path: "/docs/njta-barber/2025-10-08-proposed-order.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-10-08_Proposed-Order.pdf"
   - label: "Court Order (Discovery Schedule)"
     date: 2025-10-27
-    path: "/docs/njta-barber/2025-10-27-court-order.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-10-27_Court-Order.pdf"
   - label: "Discovery Packet — Interrogatories, Notice to Produce, and Admissions"
     date: 2025-10-27
-    path: "/docs/njta-barber/2025-10-27-discovery-requests.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-10-27_Discovery-Requests.pdf"
+  - label: "Answer to Counterclaim & Affirmative Defenses (NJTA)"
+    date: 2025-11-05
+    path: "/assets/cases/atl-dc-007956-25/2025-11-05_Response-to-Counterclaim.pdf"
   - label: "Congressman Gottheimer Letter re TransCore Contract"
     date: 2025-03-28
-    path: "/docs/njta-barber/2025-03-28-gottheimer-letter.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-03-28_Gottheimer-Letter.pdf"
   - label: "ADA Accommodation Request and Deadline Inquiry"
     date: 2025-11-03
-    path: "/docs/njta-barber/2025-11-03-ada-correspondence.pdf"
+    path: "/assets/cases/atl-dc-007956-25/2025-11-03_ADA-Correspondence.pdf"
 ---
 
 ## Plain-English Overview
@@ -86,13 +89,13 @@ administrative fees. It seeks judgment for $5,109.45, plus interest and costs.
 **Defendant’s response and counterclaim**  
 Barber, representing himself, filed an *Amended Answer and Counterclaim* arguing that:
 
-- NJTA functions as a **statutory corporation**, not a sovereign state entity.
+- NJTA functions as a **statutory corporation**, not a sovereign state entity.  
 - A **24-to-1** ratio of fees to tolls exceeds the “reasonable cost” limit in
-  N.J.S.A. 27:23-34.3 and N.J.A.C. 19:9-9.2(b).
+  N.J.S.A. 27:23-34.3 and N.J.A.C. 19:9-9.2(b).  
 - The fee structure violates the **Excessive Fines Clause** (see *Timbs v. Indiana*,
-  139 S. Ct. 682 (2019)).
+  139 S. Ct. 682 (2019)).  
 - NJTA’s toll operations are bound by the **public-trust doctrine**
-  (see *Neptune City v. Avon-by-the-Sea*, 61 N.J. 296 (1972)).
+  (see *Neptune City v. Avon-by-the-Sea*, 61 N.J. 296 (1972)).  
 - Private, non-commercial motorists are entitled to proportional, non-punitive treatment.
 
 Relief sought includes declaratory and injunctive orders defining NJTA’s lawful
@@ -100,12 +103,13 @@ authority, barring punitive or ultra vires fees, and reaffirming fiduciary dutie
 the traveling public.
 
 **Procedural status**  
-On October 27, 2025, Judge Marcolongo placed the matter on Track 1 and authorized
-limited discovery. Barber promptly served interrogatories and document requests
-addressing NJTA’s E-ZPass contract with TransCore, foreign-ownership and
-data-privacy issues highlighted in Congressman Josh Gottheimer’s March 28, 2025
-letter, and ADA accessibility procedures. On November 3, 2025, Barber filed an ADA
-accommodation request to confirm scheduling and docketing accuracy.
+On October 27 2025, Judge Marcolongo placed the matter on Track 1 and authorized
+limited discovery. Barber served interrogatories and document requests addressing
+NJTA’s E-ZPass contract with TransCore, foreign-ownership and data-privacy issues
+highlighted in Congressman Josh Gottheimer’s March 28 2025 letter, and ADA
+accessibility procedures. On November 3 2025, Barber filed an ADA accommodation
+request to confirm scheduling and docketing accuracy. On November 5 2025, NJTA
+filed an Answer to Counterclaim and Affirmative Defenses.
 
 ---
 
@@ -113,15 +117,16 @@ accommodation request to confirm scheduling and docketing accuracy.
 
 | Date | Event | Notes / Linked Docs |
 |------|--------|---------------------|
-| **2025-03-28** | Congressman Gottheimer Letter to NJTA Chair O’Connor | Raises national-security and data-privacy concerns about TransCore’s foreign ownership — forms part of the basis for Barber’s discovery. [[PDF]]({{ '/docs/njta-barber/2025-03-28-gottheimer-letter.pdf' | relative_url }}) |
-| **2025-08-19** | Complaint Filed by NJTA | Seeks $5,109.45 for tolls and administrative fees. [[PDF]]({{ '/docs/njta-barber/2025-08-19-complaint.pdf' | relative_url }}) |
-| **2025-08-19** | Summons Issued | ATL-DC-007956-25; service to Barber. [[PDF]]({{ '/docs/njta-barber/2025-08-19-summons.pdf' | relative_url }}) |
-| **2025-09-03** | First Appearance Filed | Confirms participation and intent to defend. [[PDF]]({{ '/docs/njta-barber/2025-09-03-first-appearance.pdf' | relative_url }}) |
-| **2025-10-08** | Amended Answer & Counterclaim Filed | Raises constitutional and public-trust arguments. [[PDF]]({{ '/docs/njta-barber/2025-10-08-counterclaim.pdf' | relative_url }}) |
-| **2025-10-08** | Proposed Order for Relief Submitted | Requests dismissal, declaratory findings, and equitable relief. [[PDF]]({{ '/docs/njta-barber/2025-10-08-proposed-order.pdf' | relative_url }}) |
-| **2025-10-27** | Court Order (Discovery Schedule) | Judge Marcolongo authorizes limited discovery and sets deadlines. [[PDF]]({{ '/docs/njta-barber/2025-10-27-court-order.pdf' | relative_url }}) |
-| **2025-10-27** | Discovery Packet Filed | Interrogatories, notice to produce, and requests for admissions served on NJTA. [[PDF]]({{ '/docs/njta-barber/2025-10-27-discovery-requests.pdf' | relative_url }}) |
-| **2025-11-03** | ADA Accommodation Request Filed | Clarifies deadline calculations and requests accessibility support. [[PDF]]({{ '/docs/njta-barber/2025-11-03-ada-correspondence.pdf' | relative_url }}) |
+| **2025-03-28** | Congressman Gottheimer Letter to NJTA Chair O’Connor | Raises national-security and data-privacy concerns about TransCore’s foreign ownership — forms part of the basis for Barber’s discovery. [[PDF]](/assets/cases/atl-dc-007956-25/2025-03-28_Gottheimer-Letter.pdf) |
+| **2025-08-19** | Complaint Filed by NJTA | Seeks $5,109.45 for tolls and administrative fees. [[PDF]](/assets/cases/atl-dc-007956-25/2025-08-19_Complaint.pdf) |
+| **2025-08-19** | Summons Issued | ATL-DC-007956-25; service to Barber. [[PDF]](/assets/cases/atl-dc-007956-25/2025-08-19_Summons.pdf) |
+| **2025-09-03** | First Appearance Filed | Confirms participation and intent to defend. [[PDF]](/assets/cases/atl-dc-007956-25/2025-09-03_Answer-FirstAppearance.pdf) |
+| **2025-10-08** | Amended Answer & Counterclaim Filed | Raises constitutional and public-trust arguments. [[PDF]](/assets/cases/atl-dc-007956-25/2025-10-08_Counterclaim.pdf) |
+| **2025-10-08** | Proposed Order for Relief Submitted | Requests dismissal, declaratory findings, and equitable relief. [[PDF]](/assets/cases/atl-dc-007956-25/2025-10-08_Proposed-Order.pdf) |
+| **2025-10-27** | Court Order (Discovery Schedule) | Judge Marcolongo authorizes limited discovery and sets deadlines. [[PDF]](/assets/cases/atl-dc-007956-25/2025-10-27_Court-Order.pdf) |
+| **2025-10-27** | Discovery Packet Filed | Interrogatories, notice to produce, and requests for admissions served on NJTA. [[PDF]](/assets/cases/atl-dc-007956-25/2025-10-27_Discovery-Requests.pdf) |
+| **2025-11-03** | ADA Accommodation Request Filed | Clarifies deadline calculations and requests accessibility support. [[PDF]](/assets/cases/atl-dc-007956-25/2025-11-03_ADA-Correspondence.pdf) |
+| **2025-11-05** | NJTA Answer to Counterclaim Filed | Denies allegations and asserts multiple affirmative defenses. [[PDF]](/assets/cases/atl-dc-007956-25/2025-11-05_Response-to-Counterclaim.pdf) |
 
 ---
 
