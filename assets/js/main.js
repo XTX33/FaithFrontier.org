@@ -4,9 +4,7 @@
 (function () {
   'use strict';
 
-  // -----------------------------
   // Small helpers
-  // -----------------------------
   var $ = function (selector, scope) {
     return (scope || document).querySelector(selector);
   };
@@ -17,34 +15,33 @@
     );
   };
 
-  var isGithubLikeHost = function () {
-    var host = window.location.hostname;
-    return host.endsWith('github.io') || host === 'localhost';
-  };
-
   // -----------------------------
   // Mobile navigation toggle
-  // Expects:
-  //   <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
-  //   <nav class="site-nav">...</nav>
   // -----------------------------
-  var initMobileNav = function () {
+  function initMobileNav() {
     var toggle = $('.nav-toggle');
     var nav = $('.site-nav');
-
     if (!toggle || !nav) return;
 
     toggle.addEventListener('click', function () {
-      var open = nav.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', String(open));
+      var isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
-  };
+
+    // Close menu when a link is clicked (mobile UX)
+    $$('.site-nav a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (!nav.classList.contains('open')) return;
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
 
   // -----------------------------
   // Highlight active nav item
-  // Matches current path to <a href="..."> in .site-nav
   // -----------------------------
-  var initActiveNav = function () {
+  function initActiveNav() {
     var navLinks = $$('.site-nav a');
     if (!navLinks.length) return;
 
@@ -54,25 +51,23 @@
       var href = link.getAttribute('href');
       if (!href) return;
 
-      // Strip origin if absolute URL is used
-      var linkPath = href.replace(/^https?:\/\/[^/]+/, '');
+      var linkPath = href.replace(/^https?:\/\/[^/]+/, ''); // strip origin
       linkPath = linkPath.replace(/\/+$/, '');
 
       if (linkPath && linkPath === path) {
         link.classList.add('is-active');
       }
     });
-  };
+  }
 
   // -----------------------------
   // Smooth scroll for in-page anchors
-  // Links like <a href="#main">Skip to content</a>
   // -----------------------------
-  var initSmoothScroll = function () {
+  function initSmoothScroll() {
     document.addEventListener('click', function (evt) {
       var target = evt.target;
 
-      // Walk up DOM tree if inside an <a>
+      // Walk up if icon/span inside link
       while (target && target.tagName !== 'A') {
         target = target.parentElement;
       }
@@ -87,20 +82,14 @@
 
       evt.preventDefault();
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-      // Try to move focus for accessibility, if element can be focused
-      if (typeof el.focus === 'function') {
-        el.focus({ preventScroll: true });
-      }
+      el.focus({ preventScroll: true });
     });
-  };
+  }
 
   // -----------------------------
-  // External link handling:
-  //   - Adds rel="noopener noreferrer"
-  //   - Opens in new tab for off-site links
+  // External link handling
   // -----------------------------
-  var initExternalLinks = function () {
+  function initExternalLinks() {
     var origin = window.location.origin;
 
     $$('a[href^="http"]').forEach(function (link) {
@@ -112,40 +101,36 @@
       link.setAttribute('rel', 'noopener noreferrer');
       link.classList.add('external-link');
     });
-  };
+  }
 
   // -----------------------------
   // Static contact form handler
-  // For <form name="contact"> on static hosts
   // -----------------------------
-  var initContactForm = function () {
+  function initContactForm() {
     var form = document.forms.contact;
     if (!form) return;
 
     form.addEventListener('submit', function (evt) {
-      if (!isGithubLikeHost()) {
-        // On a real backend, allow normal submission
-        return;
-      }
+      // For static hosting. If you later add a real backend, remove this block.
       evt.preventDefault();
       alert('Thanks! Your message has been submitted.');
       form.reset();
     });
-  };
+  }
 
   // -----------------------------
   // Collapsible timelines (optional)
-  // For long case timelines with .timeline and .timeline-toggle
   // -----------------------------
-  var initTimelineToggle = function () {
+  function initTimelineToggle() {
     var toggles = $$('.timeline-toggle');
     if (!toggles.length) return;
 
     toggles.forEach(function (btn) {
       btn.addEventListener('click', function () {
         var targetSelector = btn.getAttribute('data-target');
-        var timeline =
-          targetSelector ? $(targetSelector) : btn.closest('.timeline-wrapper');
+        var timeline = targetSelector
+          ? $(targetSelector)
+          : btn.closest('.timeline-wrapper');
         if (!timeline) return;
 
         var expanded = btn.getAttribute('aria-expanded') === 'true';
@@ -155,7 +140,7 @@
         timeline.classList.toggle('is-collapsed', !next);
       });
     });
-  };
+  }
 
   // -----------------------------
   // DOM Ready
