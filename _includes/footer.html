@@ -1,4 +1,19 @@
 <footer class="site-footer">
-  <p>&copy; {{ site.title }}</p>
-  <p>{{ site.description }}</p>
+  <div class="container footer-inner">
+    <p class="footer-brand">
+      &copy; {{ "now" | date: "%Y" }} <strong>{{ site.title }}</strong><br>
+      <span class="footer-tagline">{{ site.description }}</span>
+    </p>
+
+    <p class="footer-links">
+      <a href="{{ '/LICENSE.md' | relative_url }}">License & Rights</a> •
+      <a href="{{ '/about/' | relative_url }}">About</a> •
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </p>
+
+    <p class="footer-credit text-muted">
+      Stewardship • Transparency • Reform • Faith<br>
+      <small><a href="mailto:DTB33@PM.ME">DTB33@PM.ME</a></small>
+    </p>
+  </div>
 </footer>
