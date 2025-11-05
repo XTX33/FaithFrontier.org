@@ -32,13 +32,23 @@ permalink: /faith/ecclesiastical-deed-poll/
     <li><strong>Faith in Justice:</strong> Every living soul is heir to truth, mercy, and redemption.</li>
   </ul>
 
-  <details class="card">
-    <summary><strong>Read the Archival Version (Full Text)</strong></summary>
+  <details class="archive-card">
+  <summary>
+    <strong>Read the Archival Version (Full Text)</strong>
+  </summary>
+  <div class="archive-card-body">
     <p class="text-muted">
-      Full document preserved privately for theological and historical study.
-      Contact the site administrator to request access.
+      The full Ecclesiastical Deed Poll and related writings are being relocated
+      here from <em>Tiller.Earth</em> as part of the archive migration.  
+      Older posts and long-form records will appear soon for open reading and study.
     </p>
-  </details>
+    <p>
+      <a class="btn-primary" href="/archives/ecclesiastical-deed-poll/">
+        View the Ecclesiastical Deed Poll Archive →
+      </a>
+    </p>
+  </div>
+</details>
 
   <p class="text-muted">
     <em>“In the beginning was the Word, and the Word was with God, and the Word was God.”</em><br>
