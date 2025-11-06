@@ -14,7 +14,6 @@
       (scope || document).querySelectorAll(selector)
     );
   };
-
   // -----------------------------
   // Mobile navigation toggle
   // -----------------------------
@@ -41,16 +40,6 @@
       });
     });
   }
-    // Close menu when a link is clicked (mobile UX)
-    $$('.site-nav a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        if (!nav.classList.contains('open')) return;
-        nav.classList.remove('open');
-        toggle.setAttribute('aria-expanded', 'false');
-      });
-    });
-  }
-
   // -----------------------------
   // Highlight active nav item
   // -----------------------------
