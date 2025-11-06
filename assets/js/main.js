@@ -20,14 +20,27 @@
   // -----------------------------
   function initMobileNav() {
     var toggle = $('.nav-toggle');
-    var nav = $('.site-nav');
+    // Prefer the #site-nav id, fall back to .site-nav if needed
+    var nav = document.getElementById('site-nav') || $('.site-nav');
     if (!toggle || !nav) return;
 
+    // Ensure starting state
+    toggle.setAttribute('aria-expanded', 'false');
+
     toggle.addEventListener('click', function () {
-      var isOpen = nav.classList.toggle('open');
+      var isOpen = nav.classList.toggle('is-open');
       toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
 
+    // Close menu when a nav link is clicked (better mobile UX)
+    $$('#site-nav a, .site-nav a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (!nav.classList.contains('is-open')) return;
+        nav.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
     // Close menu when a link is clicked (mobile UX)
     $$('.site-nav a').forEach(function (link) {
       link.addEventListener('click', function () {
