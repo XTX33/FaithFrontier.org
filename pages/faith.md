@@ -8,9 +8,9 @@ description: "Faith Frontier’s reflections on conscience, stewardship, and jus
 <section class="section-intro">
   <h1>Faith & Doctrine</h1>
   <p class="section-lead">
-    Reflections on conscience, stewardship, and law — written from a faith-driven view of
-    public trust, covenant, and justice. These essays explore how Scripture, doctrine,
-    and constitutional principles meet real life, work, and courtrooms.
+    Reflections born from work, trial, and grace. Here, faith isn’t theory — it’s how conscience walks through courts, contracts, and the labor of human hands. <br></br>
+Faith Frontier began from one truth: that stewardship, law, and livelihood are sacred trusts. These writings trace where Scripture meets structure — covenant meeting constitution, mercy meeting due process — and ask how a person of conscience stands within systems built on paper and power.<br></br>
+Each piece is written as both testimony and study: personal, doctrinal, and practical. They are not legal advice, nor bound to any denomination or institution. They are simply the record of a craftsman and litigant learning to serve both the Carpenter and the Court with the same integrity.
   </p>
   <p class="text-muted">
     The writings collected here are personal theological and doctrinal reflections.
@@ -21,10 +21,7 @@ description: "Faith Frontier’s reflections on conscience, stewardship, and jus
 <!-- Personal story / why this exists -->
 <section class="section-personal-faith">
   <h2>Why Faith Frontier Exists</h2>
-  <p>
-    I’ve been political and opinionated since eighteen, but underneath all the motions and
-    case numbers is something simpler: I believe God cares how we treat each other — in
-    business, in court, and in love.
+  <p>I’ve been outspoken since eighteen — political, opinionated, unafraid to take a stand. But beneath all the filings, motions, and docket numbers sits something simpler: I believe God cares how we treat each other — in business, in court, and in love. <br></p>br> My own record carries both faith and failure. Some wounds came from my choices, others from systems built to break the poor and unconnected. I’m working out my faith in public: repenting where I was wrong, standing firm where the process was wrong, and building something honest in between. <br></br> I’m a builder by trade, a pro se litigant by necessity, and a man still hoping for a family and a future in New Jersey. Faith Frontier is where those worlds meet — where paperwork and prayer share the same table, and where anyone can see how conscience, Scripture, and law collide in real life. <br></br> It exists because mercy and justice aren’t opposites. They’re the same pursuit, carried out with clean hands.
   </p>
   <p>
     My own record was shaped by fear, money, and misapplied charges. I’m working out my
@@ -56,10 +53,7 @@ description: "Faith Frontier’s reflections on conscience, stewardship, and jus
 
   <article class="faith-cta-card">
     <h2>Constitution as Covenant</h2>
-    <p>
-      A long-form meditation on the Constitution as a trust instrument and sacred covenant,
-      connecting organic law, posterity, and Christian conscience.
-    </p>
+    <p> These records explore the nation’s founding principles not as distant history, but as active duties of stewardship and accountability in public life.</p>
     <p>
       <a class="btn-ghost" href="{{ '/pages/faith/constitution-covenant/' | relative_url }}">
         Explore the Constitutional Essay →
