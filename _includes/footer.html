@@ -1,19 +1,27 @@
-<footer class="site-footer">
+<footer class="site-footer" role="contentinfo">
   <div class="container footer-inner">
     <p class="footer-brand">
       &copy; {{ "now" | date: "%Y" }} <strong>{{ site.title }}</strong><br>
       <span class="footer-tagline">{{ site.description }}</span>
     </p>
 
-    <p class="footer-links">
-  <a href="{{ '/license/' | relative_url }}">License & Rights</a> •
-  <a href="{{ '/about/' | relative_url }}">About</a> •
-  <a href="{{ '/contact/' | relative_url }}">Contact</a>
-</p>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <span aria-hidden="true">•</span>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      <span aria-hidden="true">•</span>
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <span aria-hidden="true">•</span>
+      <a href="{{ '/license/' | relative_url }}">License &amp; Rights</a>
+    </nav>
 
     <p class="footer-credit text-muted">
       Stewardship • Transparency • Reform • Faith<br>
-      <small><a href="mailto:DTB33@PM.ME">DTB33@PM.ME</a></small>
+      <small>General inquiries: <a href="mailto:DTB33@PM.ME">DTB33@PM.ME</a></small>
+    </p>
+
+    <p class="footer-updated">
+      <small>Last updated: <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%B %d, %Y" }}</time></small>
     </p>
   </div>
 </footer>
