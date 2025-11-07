@@ -160,6 +160,11 @@ a:hover {
    Buttons
    ========================== */
 
+/* ==========================
+   Buttons
+   ========================== */
+
+.btn,
 .btn-primary,
 .btn-ghost {
   display: inline-flex;
@@ -174,6 +179,32 @@ a:hover {
   border: 1px solid transparent;
   transition: var(--transition);
 }
+
+/* Main accent button (used as .btn-accent on homepage) */
+.btn-accent,
+.btn-primary {
+  background: var(--brand-accent);
+  color: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+.btn-accent:hover,
+.btn-primary:hover {
+  background: var(--link-hover);
+  color: #ffffff;
+}
+
+/* Ghost / outline button */
+.btn-ghost {
+  background: transparent;
+  color: var(--text-main);
+  border-color: var(--border-color);
+}
+
+.btn-ghost:hover {
+  background: rgba(15, 23, 42, 0.03);
+}
+
 
 .btn-primary {
   background: var(--brand-accent);
