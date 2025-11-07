@@ -2,6 +2,23 @@
 layout: case
 title: "State v. Barber – Unified Post-Conviction Relief (R. 3:22)"
 permalink: /cases/barber-nj-pcr-2024/
+status: "Active"
+filed_date: 2025-05-04
+court: "Superior Court of New Jersey, Law Division – Atlantic County"
+
+public_trust_issue: true
+public_trust_tags:
+  - "due process"
+  - "ineffective assistance of counsel"
+  - "constitutional rights"
+  - "access to justice"
+
+common_law_themes:
+  - "Due Process & Fair Trial"
+  - "Conscience in Criminal Justice"
+  - "Right to Effective Counsel"
+  - "Integrity of the Judicial Process"
+
 summary: >
   Unified overview of post-conviction relief proceedings brought by
   Devon Tyler Barber under N.J. Ct. R. 3:22 across related Atlantic County
