@@ -6,19 +6,19 @@ title: "Faith Frontier Ecclesiastical Trust"
 <section class="hero">
   <div class="hero-inner">
     <p class="hero-kicker">Faith Frontier Ecclesiastical Trust</p>
-    <h1>Turning lived injustice into public record.</h1>
+    <h1>Public record meets public accountability.</h1>
     <p class="hero-lead">
       A transparent archive at the intersection of <strong>law, faith, and civic integrity</strong> —
-      documenting real New Jersey cases, wage and benefits disputes, prolonged detention, and
-      the systems that shape them.
+      documenting New Jersey legal cases, wage and benefits disputes, detention proceedings, and
+      the public systems that govern them.
     </p>
     <div class="hero-actions">
-      <a class="btn-primary" href="{{ '/cases/' | relative_url }}">📂 Browse Active Cases</a>
-      <a class="btn-ghost" href="{{ '/faith/' | relative_url }}">📖 Read Faith Reflections</a>
+      <a class="btn-primary" href="{{ '/cases/' | relative_url }}">Browse Case Records</a>
+      <a class="btn-ghost" href="{{ '/faith/' | relative_url }}">Read Faith Reflections</a>
     </div>
     <p class="hero-footnote">
-      Built by a New Jersey tradesman and pro se litigant who spent <strong>108 days in custody before seeing a judge</strong>,
-      fought wage theft and benefits denials, and now publishes the paper trail in plain sight.
+      Established by a New Jersey tradesman and pro se litigant who spent <strong>108 days in custody before arraignment</strong>,
+      navigated wage theft and benefits denials, and now publishes the full record in service of transparency and reform.
     </p>
   </div>
 </section>
@@ -26,9 +26,9 @@ title: "Faith Frontier Ecclesiastical Trust"
 <section class="features">
   <div class="feature-grid">
 
-    <!-- Live Case Engine -->
+    <!-- Case Documentation -->
     <article class="feature-card">
-      <h2>Case Engine: Courts, Wage Claims &amp; Appeals</h2>
+      <h2>Case Documentation: Courts, Wage Claims &amp; Appeals</h2>
       <p>
         Follow live New Jersey matters — from <strong>NJTA v. Barber</strong> to wage disputes,
         benefits cutoffs, and criminal appeals — through annotated filings, timelines, and

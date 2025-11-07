@@ -1,10 +1,10 @@
 <header class="site-header" role="banner">
   <div class="site-header-inner">
-    <!-- Brand -->
-    <a class="site-logo" href="{{ '/' | relative_url }}" aria-label="{{ site.title | default: 'Faith Frontier' }}">
+    <!-- Site brand / logo -->
+    <a class="site-logo" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust - Home">
       <img
         src="{{ '/assets/img/logo.png' | relative_url }}"
-        alt="{{ site.title | default: 'Faith Frontier Ecclesiastical Trust' }} logo"
+        alt="Faith Frontier Ecclesiastical Trust logo"
         width="180"
         height="48"
         decoding="async"
@@ -12,26 +12,25 @@
       <span class="sr-only">{{ site.title | default: 'Faith Frontier Ecclesiastical Trust' }}</span>
     </a>
 
-    <!-- Right-side controls -->
+    <!-- Mobile navigation toggle -->
     <div class="site-header-actions">
-      <!-- Mobile toggle -->
       <button
         class="nav-toggle"
         type="button"
         aria-controls="site-nav"
         aria-expanded="false"
-        aria-label="Toggle navigation"
+        aria-label="Toggle navigation menu"
       >
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
       </button>
     </div>
   </div>
 
   <!-- Primary navigation -->
   <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-    <ul>
+    <ul role="list">
       <li>
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>
           Home
@@ -64,7 +63,13 @@
 
       <li>
         <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}aria-current="page"{% endif %}>
-          About / Contact
+          About
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ '/contact/' | relative_url }}" {% if page.url contains '/contact/' %}aria-current="page"{% endif %}>
+          Contact
         </a>
       </li>
     </ul>

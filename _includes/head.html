@@ -1,18 +1,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   {% if page.title %}
     <title>{{ page.title }} · {{ site.title }}</title>
   {% else %}
-    <title>{{ site.title }} · Faith Frontier Ecclesiastical Trust</title>
+    <title>{{ site.title }} · {{ site.tagline | default: 'Law, conscience, and stewardship' }}</title>
   {% endif %}
 
   <meta name="description"
-        content="{{ page.description | default: site.description | default: 'A public-record initiative documenting New Jersey cases, faith reflections, and public-trust issues.' }}">
+        content="{{ page.description | default: site.description | default: 'A public documentation portal uniting law, faith, and transparency, with New Jersey case records, public-trust analysis, and commentary.' }}">
 
   <!-- Canonical URL -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Jekyll SEO Tag -->
+  {% seo %}
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
@@ -23,40 +27,49 @@
   <link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{% if page.layout == 'case' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title"
         content="{{ page.og_title | default: page.title | default: site.title }}">
   <meta property="og:description"
         content="{{ page.og_description | default: page.description | default: site.description }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ '/assets/img/faithfrontier-share.png' | absolute_url }}">
+  <meta property="og:image" content="{{ page.image | default: '/assets/img/faithfrontier-share.png' | absolute_url }}">
+  <meta property="og:locale" content="en_US">
 
-  <!-- Twitter -->
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title"
         content="{{ page.og_title | default: page.title | default: site.title }}">
   <meta name="twitter:description"
         content="{{ page.og_description | default: page.description | default: site.description }}">
   <meta name="twitter:image"
-        content="{{ '/assets/img/faithfrontier-share.png' | absolute_url }}">
+        content="{{ page.image | default: '/assets/img/faithfrontier-share.png' | absolute_url }}">
 
-  <!-- Theme color -->
-  <meta name="theme-color" content="#111827">
+  <!-- Theme and display -->
+  <meta name="theme-color" content="#112e51">
+  <meta name="color-scheme" content="light">
 
-  <!-- Schema.org WebPage JSON-LD -->
+  <!-- Schema.org WebPage JSON-LD for structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "WebPage",
+    "@type": "{% if page.layout == 'case' %}Article{% else %}WebPage{% endif %}",
     "name": "{{ page.title | default: site.title }}",
+    "headline": "{{ page.title | default: site.title }}",
     "url": "{{ page.url | absolute_url }}",
     "description": "{{ page.description | default: site.description }}",
+    {% if page.date %}"datePublished": "{{ page.date | date_to_xmlschema }}",{% endif %}
+    "inLanguage": "en-US",
     "publisher": {
       "@type": "Organization",
       "name": "Faith Frontier Ecclesiastical Trust",
-      "url": "{{ site.url | default: site.github.url | default: 'https://faithfrontier.org' }}"
-    }
+      "url": "{{ site.url | default: 'https://faithfrontier.org' }}"
+    }{% if page.author %},
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.author }}"
+    }{% endif %}
   }
   </script>
 </head>
