@@ -1,20 +1,57 @@
-title: Faith Frontier Ecclesiastical Trust
-description: A public documentation portal uniting law, faith, and transparency — featuring New Jersey case records, public-trust analysis, and moral commentary.
+title: "Faith Frontier Ecclesiastical Trust"
+description: "A public documentation portal uniting law, faith, and transparency — featuring New Jersey case records, public-trust analysis, and moral commentary."
 
+# Production URL + base
 url: "https://faithfrontier.org"
-baseurl: ""   # custom domain = empty
+baseurl: ""   # custom domain on root
 
-# DO NOT set "theme: ..." here – we are using our own layouts
-# theme: minima  <-- if you have this, remove it
+markdown: kramdown
+permalink: "/:title/"
+timezone: "America/New_York"
 
+# ----------------------------------
+# Collections (auto pages for cases / essays)
+# ----------------------------------
 collections:
   cases:
     output: true
-    permalink: /cases/:slug/
+    permalink: "/cases/:name/"
   essays:
     output: true
-    permalink: /faith/:slug/
+    permalink: "/faith/:name/"
 
-markdown: kramdown
-permalink: /:title/
-timezone: America/New_York
+# ----------------------------------
+# Default layouts (less front matter repetition)
+# ----------------------------------
+defaults:
+  # All case files in _cases/ use layout: case
+  - scope:
+      path: ""
+      type: "cases"
+    values:
+      layout: "case"
+
+  # All essay files in _essays/ use layout: essay
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "essay"
+
+  # All regular pages use layout: default
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# ----------------------------------
+# Build hygiene
+# ----------------------------------
+exclude:
+  - "node_modules"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "config.yml.txt"   # old config, if still around
