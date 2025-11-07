@@ -2,7 +2,7 @@
 layout: default
 title: "1599 Geneva Bible Scroll"
 permalink: /archives/geneva-bible-scroll/
-description: "Prophecy, Gospel, and Christ’s Kingship — 26 landmark verses from the 1599 Geneva Bible presented in scroll format."
+description: "Prophecy, Gospel, and Christ’s Kingship—26 landmark verses from the 1599 Geneva Bible presented in scroll format."
 ---
 
 <style>
@@ -153,14 +153,14 @@ description: "Prophecy, Gospel, and Christ’s Kingship — 26 landmark verses f
   }
 </style>
 
-<header>
+<header role="banner">
   <nav aria-label="Breadcrumb" class="breadcrumb">
     <a href="{{ '/' | relative_url }}">Home</a> ›
     <span>1599 Geneva Bible Scroll</span>
   </nav>
 </header>
 
-<main>
+<main role="main">
   <article class="scroll">
     <!-- Title -->
     <h1>1599 Geneva Bible</h1>
@@ -171,7 +171,7 @@ description: "Prophecy, Gospel, and Christ’s Kingship — 26 landmark verses f
     </h3>
 
     <!-- TOC -->
-    <nav id="toc" aria-label="Table of Contents">
+    <nav id="toc" aria-label="Table of contents for Geneva Bible sections">
       <a href="#orig">Chosen &amp; Refined</a>
       <a href="#gospel">Gospel Core</a>
       <a href="#glory">Prophecy → Glory</a>
@@ -179,8 +179,7 @@ description: "Prophecy, Gospel, and Christ’s Kingship — 26 landmark verses f
 
     <!-- Intro -->
     <p>
-      The <strong>1599 Geneva Bible</strong> lit the English Reformation—
-      carried by pilgrims and martyrs, feared by monarchs. Below, its
+      The <strong>1599 Geneva Bible</strong> lit the English Reformation—carried by pilgrims and martyrs, feared by monarchs. Below, its
       greatest passages unfold the Gospel in parchment-scroll form.
     </p>
 
@@ -450,9 +449,7 @@ description: "Prophecy, Gospel, and Christ’s Kingship — 26 landmark verses f
     <!-- Footer verse -->
     <div class="divider"><br></div>
     <footer style="text-align: center; font-style: italic;">
-      “The grass withereth, the flower falleth away: but the word of the Lord endureth for ever.”
-      —
-      <a href="https://www.biblegateway.com/passage/?search=1Pet.1.24-25&amp;version=GNV" target="_blank">
+      “The grass withereth, the flower falleth away: but the word of the Lord endureth for ever.”—<a href="https://www.biblegateway.com/passage/?search=1Pet.1.24-25&amp;version=GNV" target="_blank">
         1 Pet 1:24-25
       </a>
     </footer>
@@ -465,7 +462,7 @@ description: "Prophecy, Gospel, and Christ’s Kingship — 26 landmark verses f
   </p>
 </main>
 
-<footer>
+<footer role="contentinfo">
   <p style="text-align: center; font-size: 0.85rem; margin: 0;">
     Copy-right/Copy-claim, 2025 A.D. Faith Frontier | Temple &amp; Trust Assembly • All Rights Reserved •
     <a href="/about">About</a> • <a href="/contact">Contact</a>

@@ -4,7 +4,7 @@ title: "Thomas Becket Religious Liberty Proclamation (2020)"
 permalink: /archives/thomas-becket-proclamation/
 ---
 
-<section class="section-intro">
+<section class="section-intro" aria-label="Introduction">
   <h1>Thomas Becket &amp; Religious Liberty</h1>
   <p class="section-lead">
     Full text of the December 28, 2020 presidential proclamation commemorating
@@ -17,8 +17,8 @@ permalink: /archives/thomas-becket-proclamation/
   </p>
 </section>
 
-<section class="case-page">
-  <article class="card proclamation-body">
+<section class="proclamation-content" aria-label="Proclamation text">
+  <article class="proclamation-body">
 <meta charset="UTF-8"><meta charset="UTF-8"> <br>
 <p><span class="meta__label">ISSUED ON:</span><span> DECEMBER</span><time> 28, 2020,</time></p>
 <p><br>Today is the 850th anniversary of the martyrdom of Saint Thomas Becket on December 29, 1170. Thomas Becket was a statesman, a scholar, a chancellor, a priest, an archbishop, and a lion of religious liberty.</p>
@@ -27,7 +27,7 @@ permalink: /archives/thomas-becket-proclamation/
 <p> </p>
 <p>The son of a London sheriff and once described as “a low‑born clerk” by the King who had him killed, Thomas Becket rose to become the leader of the church in England. When the crown attempted to encroach upon the affairs of the house of God through the Constitutions of Clarendon, Thomas refused to sign the offending document. When the furious King Henry II threatened to hold him in contempt of royal authority and questioned why this “poor and humble” priest would dare defy him, Archbishop Becket responded “God is the supreme ruler, above Kings” and “we ought to obey God rather than men.”</p>
 <p> </p>
-<p>Because Thomas would not assent to rendering the church subservient to the state, he was forced to forfeit all his property and flee his own country. Years later, after the intervention of the Pope, Becket was allowed to return — and continued to resist the King’s oppressive interferences into the life of the church. Finally, the King had enough of Thomas Becket’s stalwart defense of religious faith and reportedly exclaimed in consternation: “Will no one rid me of this meddlesome priest?”</p>
+<p>Because Thomas would not assent to rendering the church subservient to the state, he was forced to forfeit all his property and flee his own country. Years later, after the intervention of the Pope, Becket was allowed to return—and continued to resist the King’s oppressive interferences into the life of the church. Finally, the King had enough of Thomas Becket’s stalwart defense of religious faith and reportedly exclaimed in consternation: “Will no one rid me of this meddlesome priest?”</p>
 <p> </p>
 <p>The King’s knights responded and rode to Canterbury Cathedral to deliver Thomas Becket an ultimatum: give in to the King’s demands or die. Thomas’s reply echoes around the world and across the ages. His last words on this earth were these: “For the name of Jesus and the protection of the Church, I am ready to embrace death.” Dressed in holy robes, Thomas was cut down where he stood inside the walls of his own church.</p>
 <p> </p>
@@ -39,13 +39,13 @@ permalink: /archives/thomas-becket-proclamation/
 <p> </p>
 <p>As Americans, we were first united by our belief that “rebellion to tyrants is obedience to God” and that defending liberty is more important than life itself. If we are to continue to be the land of the free, no government official, no governor, no bureaucrat, no judge, and no legislator must be allowed to decree what is orthodox in matters of religion or to require religious believers to violate their consciences. No right is more fundamental to a peaceful, prosperous, and virtuous society than the right to follow one’s religious convictions. As I declared in Krasiński Square in Warsaw, Poland on July 6, 2017, the people of America and the people of the world still cry out: “We want God.”</p>
 <p> </p>
-<p>On this day, we celebrate and revere Thomas Becket’s courageous stand for religious liberty and we reaffirm our call to end religious persecution worldwide. In my historic address to the United Nations last year, I made clear that America stands with believers in every country who ask only for the freedom to live according to the faith that is within their own hearts. I also stated that global bureaucrats have absolutely no business attacking the sovereignty of nations that wish to protect innocent life, reflecting the belief held by the United States and many other countries that every child — born and unborn — is a sacred gift from God. Earlier this year, I signed an Executive Order to prioritize religious freedom as a core dimension of United States foreign policy. We have directed every Ambassador — and the over 13,000 United States Foreign Service officers and specialists — in more than 195 countries to promote, defend, and support religious freedom as a central pillar of American diplomacy.</p>
+<p>On this day, we celebrate and revere Thomas Becket’s courageous stand for religious liberty and we reaffirm our call to end religious persecution worldwide. In my historic address to the United Nations last year, I made clear that America stands with believers in every country who ask only for the freedom to live according to the faith that is within their own hearts. I also stated that global bureaucrats have absolutely no business attacking the sovereignty of nations that wish to protect innocent life, reflecting the belief held by the United States and many other countries that every child—born and unborn—is a sacred gift from God. Earlier this year, I signed an Executive Order to prioritize religious freedom as a core dimension of United States foreign policy. We have directed every Ambassador—and the over 13,000 United States Foreign Service officers and specialists—in more than 195 countries to promote, defend, and support religious freedom as a central pillar of American diplomacy.</p>
 <p> </p>
-<p>We pray for religious believers everywhere who suffer persecution for their faith. We especially pray for their brave and inspiring shepherds — like Cardinal Joseph Zen of Hong Kong and Pastor Wang Yi of Chengdu — who are tireless witnesses to hope.</p>
+<p>We pray for religious believers everywhere who suffer persecution for their faith. We especially pray for their brave and inspiring shepherds—like Cardinal Joseph Zen of Hong Kong and Pastor Wang Yi of Chengdu—who are tireless witnesses to hope.</p>
 <p> </p>
 <p>To honor Thomas Becket’s memory, the crimes against people of faith must stop, prisoners of conscience must be released, laws restricting freedom of religion and belief must be repealed, and the vulnerable, the defenseless, and the oppressed must be protected. The tyranny and murder that shocked the conscience of the Middle Ages must never be allowed to happen again. As long as America stands, we will always defend religious liberty.</p>
 <p> </p>
-<p>A society without religion cannot prosper. A nation without faith cannot endure — because justice, goodness, and peace cannot prevail without the grace of God.</p>
+<p>A society without religion cannot prosper. A nation without faith cannot endure—because justice, goodness, and peace cannot prevail without the grace of God.</p>
 <p>NOW, THEREFORE, I, DONALD J. TRUMP, President of the United States of America, by virtue of the authority vested in me by the Constitution and the laws of the United States, do hereby proclaim December 29, 2020, as the 850th anniversary of the martyrdom of Saint Thomas Becket. I invite the people of the United States to observe the day in schools and churches and customary places of meeting with appropriate ceremonies in commemoration of the life and legacy of Thomas Becket.</p>
 <p> </p>
 <p>IN WITNESS WHEREOF, I have hereunto set my hand this twenty-eighth day of December, in the year of our Lord two thousand twenty, and of the Independence of the United States of America the two hundred and forty-fifth.</p>

@@ -5,7 +5,7 @@ permalink: /archives/11-banned-foods/
 description: "Educational repost of Food Revolution Network’s article on 11 banned or controversial ingredients still used in the U.S. food supply."
 ---
 
-<section class="section-intro">
+<section class="section-intro" aria-label="Introduction">
   <h1>11 Banned Foods Americans Should Stop Eating</h1>
   <p class="text-muted">
     Originally published by
@@ -16,10 +16,8 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
   </p>
 </section>
 
-<section class="case-page">
-  <article class="card">
-
-    <header>
+<section class="article-content" aria-label="Article content">
+  <article><header>
       <p><em>Repost from Food Revolution Network – “11 Banned Foods Americans Should Stop Eating.”</em></p>
     </header>
 
@@ -69,7 +67,7 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       but banned elsewhere.
     </p>
 
-    <h3><em>Banned Ingredients #1 — Dough Conditioners</em></h3>
+    <h3><em>Banned Ingredients #1—Dough Conditioners</em></h3>
     <p>
       Dough conditioners, such as potassium bromate and azodicarbonamide, are chemicals used to improve the strength
       and texture of bread dough. They are often found in white breads, rolls, and “egg breads.” However, they are
@@ -79,7 +77,7 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       Australia and Europe.
     </p>
 
-    <h3><em>Banned Ingredients #2 — Brominated Vegetable Oil (BVO)</em></h3>
+    <h3><em>Banned Ingredients #2—Brominated Vegetable Oil (BVO)</em></h3>
     <p>
       Brominated vegetable oil (BVO) was originally patented by chemical companies as a flame retardant. But now, BVO
       can be found in certain colorful sports drinks and citrus-flavored sodas as an emulsifier. Studies have shown
@@ -91,7 +89,7 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       by the FDA.
     </p>
 
-    <h3><em>Banned Ingredients #3 — Propylparaben</em></h3>
+    <h3><em>Banned Ingredients #3—Propylparaben</em></h3>
     <p>
       In the United States, propylparaben is used as a preservative in tortillas, muffins, trail mix, pies, sausage
       rolls, and more. Research has found that it can affect sex hormones and sperm counts in young rats. Cornell
@@ -103,16 +101,16 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       food. And in 2015, the EU went further – also banning propylparaben from cosmetic products.
     </p>
 
-    <h3><em>Banned Ingredients #4 — BHA and BHT</em></h3>
+    <h3><em>Banned Ingredients #4—BHA and BHT</em></h3>
     <p>
       BHA and BHT are popular man-made antioxidants used in dry mixes, cereals, and dehydrated potato products to
       preserve them and increase shelf life. They’re also found in product packaging. These are possible carcinogens
-      and endocrine disruptors — meaning that they can alter the normal function of your hormones and lead to disease.
+      and endocrine disruptors—meaning that they can alter the normal function of your hormones and lead to disease.
       BHA and BHT are banned for use in food and beverages by the United Kingdom, European Union, Japan, and other
       countries.
     </p>
 
-    <h3><em>Banned Ingredients #5 — Synthetic Food Dyes</em></h3>
+    <h3><em>Banned Ingredients #5—Synthetic Food Dyes</em></h3>
     <p>
       Food manufacturers use synthetic food dyes, such as blue 2, yellow 5, and red 40, to enhance the coloring
       of certain foods and ingredients to make them more appealing to consumers. Some foods that contain food dyes
@@ -132,11 +130,11 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       Fanta colored with petroleum-derived artificial dyes like red 40 and yellow 6.
     </p>
 
-    <h3><em>Banned Ingredients #6 — GMOs</em></h3>
+    <h3><em>Banned Ingredients #6—GMOs</em></h3>
     <p>
       Genetically modified organisms (GMOs) have been around since the 1980s. But they have become a controversial
-      topic — and for good reason. While they’re widespread in the U.S. — with most U.S. soy, sugar beets, corn,
-      canola, cotton, and alfalfa being GMO crops — many European countries have banned or regulated them due to
+      topic—and for good reason. While they’re widespread in the U.S.—with most U.S. soy, sugar beets, corn,
+      canola, cotton, and alfalfa being GMO crops—many European countries have banned or regulated them due to
       public safety concerns.
     </p>
     <p>
@@ -148,7 +146,7 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       on use of glyphosate in many countries worldwide.
     </p>
 
-    <h3><em>Banned Ingredients #7 — Roxarsone</em></h3>
+    <h3><em>Banned Ingredients #7—Roxarsone</em></h3>
     <p>
       The arsenic-based drug roxarsone was routinely used in chicken in the U.S. until July 2011, when Pfizer decided
       to stop selling it. However, there is no actual ban on the use of arsenic in the raising of chickens for food.
@@ -159,7 +157,7 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       the U.S. still contain it.
     </p>
 
-    <h3><em>Banned Ingredients #8 — Ractopamine</em></h3>
+    <h3><em>Banned Ingredients #8—Ractopamine</em></h3>
     <p>
       In the U.S., ractopamine is a muscle enhancer for pigs, cows, and turkeys. And, like other harmful substances
       used during the raising of animals, it doesn’t just go away when the animal is slaughtered. Some of it is still
@@ -168,14 +166,14 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       as well as chromosomal and behavioral changes.
     </p>
 
-    <h3><em>Banned Ingredients #9 — Herbicides, Insecticides, Fungicides</em></h3>
+    <h3><em>Banned Ingredients #9—Herbicides, Insecticides, Fungicides</em></h3>
     <p>
       Herbicides, insecticides, and fungicides are widely used on crops in the U.S. food system to keep them free of
       bugs and diseases. Meanwhile, other countries see (and act on) the danger they pose to humans. Of the 374 active
       ingredients authorized for agricultural use in the U.S. in 2016, the European Union banned 72 of them.
     </p>
 
-    <h3><em>Banned Ingredients #10 — Olestra</em></h3>
+    <h3><em>Banned Ingredients #10—Olestra</em></h3>
     <p>
       Olestra, or Olean, is a cholesterol-free fat substitute created by Procter &amp; Gamble. The FDA approved it
       for use in foods in the 1990s and it’s still used in certain potato chips and french fries. But Olestra may
@@ -184,7 +182,7 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
       Kingdom have banned the ingredient.
     </p>
 
-    <h3><em>Banned Ingredients #11 — Synthetic Hormones</em></h3>
+    <h3><em>Banned Ingredients #11—Synthetic Hormones</em></h3>
     <p>
       Synthetic hormones, such as rBGH and rBST, are widely used in the U.S. dairy industry. The primary reason for
       this is to increase milk production in dairy cows. However, rBGH increases IGF-1 levels in humans and may

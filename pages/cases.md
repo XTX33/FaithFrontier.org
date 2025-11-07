@@ -2,7 +2,7 @@
 layout: default
 title: "Cases, Dockets & Public Trust"
 permalink: /cases/
-description: "Faith Frontier’s live dockets, case records, and public-trust matters — explained in plain language so working people can see how New Jersey courts and agencies are using power."
+description: "Faith Frontier’s live dockets, case records, and public-trust matters—explained in plain language so working people can see how New Jersey courts and agencies are using power."
 body_class: page-cases
 ---
 
@@ -10,15 +10,14 @@ body_class: page-cases
   <div class="container hero-inner">
     <div class="hero-copy">
       <p class="eyebrow">Faith Frontier Ecclesiastical Trust</p>
-      <h1>Cases, Dockets &amp; Public Trust</h1>
+      <h1>Cases, Dockets and Public Trust</h1>
       <p class="section-lead">
-        This is the public case record for <strong>Faith Frontier Ecclesiastical Trust</strong> —
-        documenting how New Jersey courts, agencies, and toll systems touch the life of a working
+        This is the public case record for <strong>Faith Frontier Ecclesiastical Trust</strong>—documenting how New Jersey courts, agencies, and toll systems touch the life of a working
         tradesman and pro se litigant.
       </p>
       <p class="text-muted">
         Every matter listed here is grounded in public records and filings. Nothing on this site is
-        legal advice. It is an attempt to tell the truth about process, pressure, and mercy — in
+        legal advice. It is an attempt to tell the truth about process, pressure, and mercy—in
         language an ordinary person can understand.
       </p>
     </div>
@@ -32,7 +31,7 @@ body_class: page-cases
       </ol>
       <p class="hero-callout">
         <strong>Scripture note:</strong> “For the Lord loves justice; He will not forsake His saints.”
-        <span class="text-muted">— Psalm 37:28</span>
+        <span class="text-muted">—Psalm 37:28</span>
       </p>
     </aside>
   </div>
@@ -42,11 +41,11 @@ body_class: page-cases
   <div class="container cards-grid">
     <article class="card card-link-block">
       <h2 class="h4"><a href="#records">1. Case Records</a></h2>
-      <p>All matters advanced by Faith Frontier — appeals, PCR petitions, civil actions, and agency disputes.</p>
+      <p>All matters advanced by Faith Frontier—appeals, PCR petitions, civil actions, and agency disputes.</p>
     </article>
 
     <article class="card card-link-block">
-      <h2 class="h4"><a href="#live">2. Live Dockets &amp; Upcoming Dates</a></h2>
+      <h2 class="h4"><a href="#live">2. Live Dockets and Upcoming Dates</a></h2>
       <p>Active cases with hearings or deadlines on the calendar, tracked in plain language.</p>
     </article>
 
@@ -86,8 +85,7 @@ body_class: page-cases
   <div class="container">
     <h2>1. Case Records</h2>
     <p class="lead">
-      These records are published under the oversight of <strong>Faith Frontier Ecclesiastical Trust</strong> —
-      a faith-based public trust devoted to lawful stewardship, equity, and reform. Each case is presented
+      These records are published under the oversight of <strong>Faith Frontier Ecclesiastical Trust</strong>—a faith-based public trust devoted to lawful stewardship, equity, and reform. Each case is presented
       to preserve the integrity of the record and to witness how law is actually applied to working people.
     </p>
 
@@ -152,16 +150,14 @@ body_class: page-cases
                   <small>
                     Official docket:
                     <a href="{{ case.docket_url }}" target="_blank" rel="noopener">
-                      View on court system →
-                    </a>
+                      View on Court System</a>
                   </small>
                 </p>
               {% endif %}
 
               <p>
                 <a class="card-link" href="{{ case.url | relative_url }}">
-                  Open full record →
-                </a>
+                  View Full Case Record</a>
               </p>
             </article>
           {% endfor %}
@@ -203,8 +199,7 @@ body_class: page-cases
 
               <p>
                 <a class="card-link" href="{{ case.url | relative_url }}">
-                  Open full record →
-                </a>
+                  View Full Case Record</a>
               </p>
             </article>
           {% endfor %}
@@ -217,9 +212,9 @@ body_class: page-cases
 
 <section id="live" class="section section-alt section-live" aria-label="Live dockets and upcoming dates">
   <div class="container">
-    <h2>2. Live Dockets &amp; Upcoming Dates</h2>
+    <h2>2. Live Dockets and Upcoming Dates</h2>
     <p class="lead">
-      Live dockets focus on what is <strong>currently moving</strong> — upcoming hearings,
+      Live dockets focus on what is <strong>currently moving</strong>—upcoming hearings,
       briefing deadlines, or motions that may shape the record. Dates are approximate and
       should always be confirmed on the official court docket.
     </p>
@@ -278,7 +273,7 @@ body_class: page-cases
 
             <p>
               <a class="card-link" href="{{ case.url | relative_url }}">
-                View timeline &amp; filings →
+                View timeline and filings 
               </a>
             </p>
           </article>
@@ -293,7 +288,7 @@ body_class: page-cases
     <h2>3. Public-Trust Matters</h2>
     <p class="lead">
       Some disputes are bigger than one person’s bill or ticket. They show how tolls, licenses,
-      data, and enforcement tools are aimed — and whether that use of power honors the public
+      data, and enforcement tools are aimed—and whether that use of power honors the public
       it claims to serve.
     </p>
     <p class="text-muted">
@@ -347,7 +342,7 @@ body_class: page-cases
 
             <p>
               <a class="card-link" href="{{ case.url | relative_url }}">
-                View full record &amp; notes →
+                View full record and notes 
               </a>
             </p>
           </article>
@@ -369,7 +364,7 @@ body_class: page-cases
       <div>
         <h3>Layers of the system</h3>
         <ul>
-          <li><strong>Municipal &amp; trial courts:</strong> where tickets, complaints, and most day-to-day hearings start.</li>
+          <li><strong>Municipal and trial courts:</strong> where tickets, complaints, and most day-to-day hearings start.</li>
           <li><strong>Law Division, Criminal:</strong> indictments, pleas, sentencing, probation, and violation proceedings.</li>
           <li><strong>Appellate Division:</strong> reviews legal errors, timing issues, and requests to file “as within time.”</li>
           <li><strong>Post-Conviction Relief (PCR):</strong> challenges to ineffective assistance and constitutional violations after conviction.</li>
@@ -384,7 +379,7 @@ body_class: page-cases
         </p>
         <p>
           By pairing official filings with honest explanation and faith-anchored reflection, Faith
-          Frontier aims to show how justice feels on the ground — and why due process, accurate
+          Frontier aims to show how justice feels on the ground—and why due process, accurate
           records, and mercy matter for anyone trying to work, rent, and love in New Jersey.
         </p>
       </div>
