@@ -718,5 +718,361 @@
     font-size: 0.95rem;
   }
 }
+/* =======================================
+   Tillerstead – Homepage Premium Layout
+   ======================================= */
 
+/* Hero layout */
+.hero--homepage {
+  background: radial-gradient(circle at top left, #020617, #111827);
+  color: var(--brand-light);
+  padding: 4rem 1.5rem 3.25rem;
+  margin: 0 0 2.5rem;
+}
 
+.hero--homepage .hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+/* Two-column hero on larger screens */
+@media (min-width: 900px) {
+  .hero--homepage {
+    padding-top: 4.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero--homepage .hero-inner {
+    grid-template-columns: minmax(0, 2.1fr) minmax(0, 1.6fr);
+  }
+
+  .hero--homepage {
+    text-align: left;
+  }
+}
+
+/* Eyebrow / kicker */
+.hero-eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  opacity: 0.85;
+  margin-bottom: 0.5rem;
+}
+
+/* Main hero text */
+.hero--homepage h1 {
+  font-size: clamp(2.2rem, 4vw, 2.8rem);
+  margin-bottom: 0.75rem;
+}
+
+.hero--homepage .lead {
+  font-size: 1.03rem;
+  line-height: 1.8;
+  color: #e5e7eb;
+  max-width: 46rem;
+  margin-bottom: 1.4rem;
+}
+
+.hero-note {
+  font-size: 0.92rem;
+  color: rgba(226, 232, 240, 0.9);
+  max-width: 40rem;
+}
+
+/* Stack helpers */
+.stack-sm > * + * {
+  margin-top: 0.4rem;
+}
+
+/* Hero actions */
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.hero--homepage .btn-accent {
+  background: var(--brand-accent);
+  color: #ffffff;
+}
+
+.hero--homepage .btn-accent:hover {
+  background: var(--link-hover);
+}
+
+.hero--homepage .btn-ghost {
+  color: #e5e7eb;
+  border-color: rgba(248, 250, 252, 0.72);
+  background: rgba(15, 23, 42, 0.4);
+}
+
+.hero--homepage .btn-ghost:hover {
+  background: rgba(15, 23, 42, 0.8);
+  border-color: #f9fafb;
+}
+
+/* Phone button */
+.btn-phone {
+  width: 100%;
+  justify-content: center;
+  margin-top: 0.85rem;
+}
+
+/* Hero KPIs (service area / core services / license) */
+.hero-kpis {
+  list-style: none;
+  margin: 1.75rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.hero-kpi {
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.hero-kpi strong {
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+/* Hero secondary card */
+.hero-secondary {
+  background: rgba(15, 23, 42, 0.85);
+  color: #e5e7eb;
+  border-radius: 14px;
+  padding: 1.5rem 1.5rem 1.35rem;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.55);
+}
+
+.hero-secondary h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.hero-secondary .small {
+  font-size: 0.9rem;
+  color: rgba(226, 232, 240, 0.9);
+}
+
+/* Badges inside hero card */
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.75rem 0 0.85rem;
+}
+
+.hero-badges .badge {
+  background: rgba(15, 118, 110, 0.16);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Hero list inside secondary card */
+.hero-secondary .hero-list {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.75rem 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.hero-callout {
+  font-size: 0.9rem;
+}
+
+/* Tint section for licensing block */
+.section--tint {
+  background: var(--bg-alt);
+}
+
+/* Licensing grid */
+.licensing-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2.75rem 1rem 2.5rem;
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 900px) {
+  .licensing-grid {
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.2fr);
+    align-items: flex-start;
+  }
+}
+
+.licensing-card {
+  margin-top: 0.25rem;
+}
+
+.credential-list {
+  margin: 0 0 0.75rem;
+  padding: 0;
+}
+
+.credential-list div {
+  margin-bottom: 0.5rem;
+}
+
+.credential-list dt {
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.credential-list dd {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+/* Generic cards grid (services) */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.cards .card {
+  height: 100%;
+}
+
+.card--lift {
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.28);
+}
+
+/* Proof grid */
+.proofgrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.proofgrid figure {
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-card);
+  box-shadow: var(--shadow);
+}
+
+.proofgrid img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.proofgrid figcaption {
+  padding: 0.75rem 0.9rem 0.9rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.center {
+  text-align: center;
+}
+
+/* Why homeowners choose Tillerstead */
+.kpis {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.kpi {
+  background: var(--bg-card);
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  padding: 1rem 1.1rem;
+  font-size: 0.94rem;
+}
+
+/* FAQ block */
+.faqs details {
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  padding: 0.7rem 0.9rem;
+}
+
+.faqs details + details {
+  margin-top: 0.75rem;
+}
+
+.faqs summary {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.faqs summary::-webkit-details-marker {
+  display: none;
+}
+
+.faqs summary::before {
+  content: '+';
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+.faqs[open] summary::before,
+.faqs details[open] summary::before {
+  content: '–';
+}
+
+.faqs p {
+  margin-top: 0.5rem;
+  font-size: 0.92rem;
+}
+
+/* Utility spacing */
+.mt-1 { margin-top: 0.75rem !important; }
+.mt-2 { margin-top: 1.5rem !important; }
+
+/* Microcopy */
+.microcopy {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* Responsive tweaks */
+@media (min-width: 700px) {
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .proofgrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 899px) {
+  .hero--homepage {
+    text-align: left;
+  }
+
+  .hero-secondary {
+    margin-top: 0.5rem;
+  }
+}
