@@ -80,9 +80,15 @@ layout: default
         {% for filing in all_docs %}
           {% if filing.file or filing.path %}
             <li>
-              <a href="{{ filing.path | default: page.assets_path | append: filing.file | relative_url }}">
-                {{ filing.label }} (PDF)
-              </a>
+              {% if filing.path %}
+                <a href="{{ filing.path | relative_url }}">
+                  {{ filing.label }} (PDF)
+                </a>
+              {% elsif filing.file %}
+                <a href="{{ page.assets_path | append: filing.file | relative_url }}">
+                  {{ filing.label }} (PDF)
+                </a>
+              {% endif %}
             </li>
           {% endif %}
         {% endfor %}
