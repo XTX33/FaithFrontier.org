@@ -13,35 +13,44 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
 
+# Default permalink style for regular pages/posts
 permalink: "/:title/"
 
 collections:
   cases:
     output: true
-    permalink: "/cases/:name/"
+    # Use :path so folder-based cases like _cases/atl-l-002794-25/index.md
+    # become /cases/atl-l-002794-25/
+    permalink: "/cases/:path/"
+
   essays:
     output: true
+    # Essays collection still maps to /faith/<slug>/
     permalink: "/faith/:name/"
 
 defaults:
+  # All documents in the "cases" collection use the "case" layout by default
   - scope:
       path: ""
       type: "cases"
     values:
       layout: "case"
 
+  # All documents in the "essays" collection use the "essay" layout by default
   - scope:
       path: ""
       type: "essays"
     values:
       layout: "essay"
 
+  # Regular pages (about, court, public-trust, etc.) use "default" layout
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
 
+  # Blog-style posts, if you ever use them, use "post" layout
   - scope:
       path: ""
       type: "posts"
