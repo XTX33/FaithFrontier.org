@@ -135,8 +135,11 @@
   text-fill-color: transparent;
 
 @media (max-width: 768px) {
-  .site-logo img {
-    height: 40px;
+ .logo-text {
+
+
+
+    font-size: 1.25rem;
   }
 }
 
