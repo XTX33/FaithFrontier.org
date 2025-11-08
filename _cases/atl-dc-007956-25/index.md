@@ -2,6 +2,7 @@
 layout: case
 title: "New Jersey Turnpike Authority v. Barber (ATL-DC-007956-25)"
 permalink: /cases/atl-dc-007956-25/
+featured: true
 docket: "ATL-DC-007956-25"
 court: "Superior Court of New Jersey, Law Division – Special Civil Part, Atlantic County"
 case_type: "Civil – Collections / Toll Dispute"
