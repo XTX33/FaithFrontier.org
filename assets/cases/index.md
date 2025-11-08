@@ -14,12 +14,17 @@ permalink: /cases/
     </p>
   </header>
 
-  {% assign active_cases = site.cases 
-      | where_exp: "case", "case.status contains 'Active'" 
-      | sort: "filed" | reverse %}
-  {% assign closed_cases = site.cases 
-      | where_exp: "case", "case.status contains 'Closed'" 
-      | sort: "filed" | reverse %}
+  {%- comment -%}
+    Base set: only published cases in the `cases` collection
+  {%- endcomment -%}
+  {% assign all_cases = site.cases | where_exp: "c", "c.published != false" %}
+
+  {%- comment -%}
+    Active vs closed by simple `state` flag in front matter:
+    state: active / closed
+  {%- endcomment -%}
+  {% assign active_cases = all_cases | where: "state", "active" | sort: "filed" | reverse %}
+  {% assign closed_cases = all_cases | where: "state", "closed" | sort: "filed" | reverse %}
 
   <!-- ================= Active Cases ================= -->
   {% if active_cases.size > 0 %}
@@ -44,13 +49,15 @@ permalink: /cases/
 
       <footer>
         <p class="badges">
-          <span class="badge bg-success">{{ case.status }}</span>
+          <span class="badge bg-success">{{ case.status | default: "Active" }}</span>
           {% if case.track %}
           <span class="badge bg-secondary">Track {{ case.track }}</span>
           {% endif %}
         </p>
         {% if case.filed %}
-        <p class="text-muted"><small>Filed {{ case.filed | date: "%b %-d, %Y" }}</small></p>
+        <p class="text-muted">
+          <small>Filed {{ case.filed | date: "%b %-d, %Y" }}</small>
+        </p>
         {% endif %}
       </footer>
     </article>
@@ -74,7 +81,7 @@ permalink: /cases/
           <small>
             <strong>{{ case.court | default: "Superior Court of New Jersey" }}</strong><br>
             {{ case.venue | default: "Atlantic County" }} ·
-            Docket No. {{ case.docket }}
+            Docket No. {{ case.docket | default: "N/A" }}
           </small>
         </p>
       </header>
@@ -83,10 +90,12 @@ permalink: /cases/
 
       <footer>
         <p class="badges">
-          <span class="badge bg-dark">{{ case.status }}</span>
+          <span class="badge bg-dark">{{ case.status | default: "Closed" }}</span>
         </p>
         {% if case.filed %}
-        <p class="text-muted"><small>Filed {{ case.filed | date: "%b %-d, %Y" }}</small></p>
+        <p class="text-muted">
+          <small>Filed {{ case.filed | date: "%b %-d, %Y" }}</small>
+        </p>
         {% endif %}
       </footer>
     </article>
