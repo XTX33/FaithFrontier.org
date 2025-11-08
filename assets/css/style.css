@@ -4,23 +4,27 @@
 
 /* Header & navigation - Consolidated */
 
+/* === Header Color Override === */
 .site-header {
-  background: var(--brand-dark);
-  color: var(--brand-light);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 1px solid var(--brand-dark);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: #111827 !important; /* deep charcoal */
+  color: #f9fafb !important;            /* near-white text */
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
 }
 
-.site-header-inner {
-  max-width: 1080px;
-  margin: 0 auto;
-  padding: 0.75rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.site-header a,
+.site-header a:visited {
+  color: #f9fafb !important;
+}
+
+.site-header a:hover,
+.site-header a:focus {
+  color: #b8922f !important; /* brass accent */
+}
+
+/* ensure nav icons / toggles visible too */
+.nav-toggle .hamburger,
+.call-btn {
+  color: #f9fafb !important;
 }
 
 .site-logo img {
