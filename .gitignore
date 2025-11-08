@@ -1,33 +1,87 @@
-# Jekyll build output
+############################
+# Jekyll / Static Site
+############################
+
+# Build output
 _site/
-.sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.sass-cache/
 
-# Bundler
+# Temporary build / cache
+tmp/
+cache/
+
+############################
+# Ruby / Bundler
+############################
+
+# Vendor & Bundler
 vendor/
 .bundle/
 
-# Ruby
-Gemfile.lock
+# Gems & lock files
 *.gem
-.rbenv-version
+Gemfile.lock
 
-# Node (if used)
+# rbenv / rvm / ruby version managers
+.rbenv-version
+.ruby-version
+.ruby-gemset
+
+############################
+# Node / Frontend (optional)
+############################
+
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
 package-lock.json
 
-# OS files
-.DS_Store
-Thumbs.db
+############################
+# Logs
+############################
 
-# Editor files
+*.log
+log/
+coverage/
+
+############################
+# OS / System Files
+############################
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+############################
+# Editor / IDE
+############################
+
 *.swp
 *.swo
 *~
 .vscode/
 .idea/
+*.iml
 
-# Build artifacts
+############################
+# Env / Secrets
+############################
+
+.env
+.env.*
+*.local
+
+############################
+# Generic Build Artifacts
+############################
+
 dist/
 build/
+out/
