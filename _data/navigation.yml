@@ -1,37 +1,34 @@
-# Navigation structure for Faith Frontier website
-# This file defines the primary navigation menu and footer links
-
 primary:
   - title: Home
     url: /
-    
-  - title: Cases & Dockets
+
+  - title: Cases
     url: /cases/
-    
-  - title: Revelations
-    url: /revelations/
-    
-  - title: Timeline
-    url: /timeline/
-    
-  - title: Faith & Essays
+
+  - title: Faith
     url: /faith/
-    
+
+  - title: Court
+    url: /court/
+
+  - title: Public Trust
+    url: /public-trust/
+
   - title: Archives
     url: /archives/
-    
-  - title: Trust Docs
+
+  - title: Trust Documents
     url: /trust/
-    
+
   - title: About
     url: /about/
 
 footer:
   - title: License & Rights
     url: /license/
-    
+
   - title: About
     url: /about/
-    
+
   - title: Contact
     url: /contact/
