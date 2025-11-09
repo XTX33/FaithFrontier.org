@@ -37,7 +37,7 @@ title: "Faith Frontier Ecclesiastical Trust"
       <ul class="feature-list">
         <li>Open every court paper in its original PDF.</li>
         <li>Scan <strong>plain-English captions</strong> that demystify each filing.</li>
-        <li>Trace crucial dates: arrest, detention, hearings, orders, and appeals.</li>
+        <li>Trace key dates: arrest, detention, hearings, orders, and appeals.</li>
         <li>See how boilerplate denials and "standard language" operate in real cases.</li>
       </ul>
       <a class="card-link" href="{{ '/cases/' | relative_url }}">View Case Summaries &amp; Documents →</a>
