@@ -57,6 +57,16 @@ defaults:
     values:
       layout: "post"
 
+company:
+  name: "Tillerstead LLC"
+  hic: "13VH10808800"  
+  address_line: "325 E. Jimmie Leeds Rd., Suite 7, #333"
+  address_locality: "Galloway"
+  address_region: "New Jersey"
+  postal_code: "[08205]"
+  phone: "(609) 665-9350"
+  email: "info@Tillerstead.com"
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -74,3 +84,4 @@ exclude:
   - webpack.config.js
   - scripts
   - .github
+
