@@ -9,7 +9,7 @@ title: "Faith Frontier Ecclesiastical Trust"
       <img
         class="hero-logo"
         src="{{ '/assets/img/logo.png' | relative_url }}"
-        alt="Faith Frontier Ecclesiastical Trust logo"
+        alt="Faith Frontier"
         loading="lazy"
       />
     </figure>
