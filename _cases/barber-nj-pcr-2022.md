@@ -1,22 +1,25 @@
 ---
 layout: case
-title: "State v. Barber — Unified Post-Conviction Relief (R. 3:22)"
-short_title: "State v. Barber (Unified PCR)"
+published: true
+
+title: "State v. Barber — Unified Post-Conviction Relief (ATL-22-002292 & ATL-22-002313)"
+short_title: "State v. Barber (Unified PCR 2022)"
 permalink: /cases/barber-nj-pcr-2022/
-
-status: "Active — unified PCR across 2022 dockets"
-filed: 2025-05-04
-
-court: "Superior Court of New Jersey — Law Division, Criminal Part"
-venue: "Atlantic County"
-case_type: "Post-Conviction Relief (N.J. Ct. R. 3:22)"
-
-role: "Petitioner / Defendant-Movant"
 
 dockets:
   - "ATL-22-002292"
   - "ATL-22-002313"
 primary_docket: "ATL-22-002292"
+
+court: "Superior Court of New Jersey — Law Division, Criminal Part"
+venue: "Atlantic County"
+case_type: "Post-Conviction Relief (N.J. Ct. R. 3:22)"
+role: "Petitioner / Defendant-Movant"
+
+status: "Active — unified PCR across 2022 matters"
+filed: 2025-05-04
+judge: "Hon. (TBD)"
+track: "R. 3:22 Post-Conviction"
 
 public_trust_issue: true
 public_trust_tags:
@@ -32,12 +35,12 @@ common_law_themes:
   - "Conscience in Criminal Justice"
 
 summary: >
-  Unified post-conviction relief proceedings filed under N.J. Ct. R. 3:22
-  across related 2022 Atlantic County criminal dockets ATL-22-002292 and
-  ATL-22-002313. The petitions assert ineffective assistance of counsel,
-  suppression of exculpatory information, and systemic due-process defects.
-  This page consolidates the shared record and issues to document the
-  constitutional and equitable dimensions of the unified PCR action.
+  Consolidated post-conviction proceedings under N.J. Ct. R. 3:22 spanning
+  related 2022 Atlantic County criminal dockets ATL-22-002292 and ATL-22-002313.
+  The petitions challenge counsel performance, evidentiary handling, and
+  sentencing procedure, asserting constitutional and equitable grounds for
+  relief. This unified record documents filings, certifications, and
+  supplemental materials across both matters for transparency and coherence.
 
 tags:
   - PCR
@@ -48,38 +51,121 @@ tags:
 assets_path: "/cases/barber-nj-pcr-2022/"
 
 filings:
-  - date: 2025-10-26
-    label: "PCR Petition with Certification and Memorandum (ATL-22-002292)"
-    file: "2025-10-26_NJSC_ATL-22-002292_Barber_Petition_for_PostConvictionRelief_with_Certification_and_Memorandum.pdf"
+  # --- ATL-22-002292 filings ---
+  - date: 2025-10-29
+    label: "PCR Supplemental Filing (EF-3727064)"
+    file: "2025-10-29_EF-3727064_PCR-Supplemental-Filing.pdf"
     path: "/cases/atl-22-002292/pcr/"
 
   - date: 2025-10-27
-    label: "Certification of Supplemental Record and Request for Transmittal to Appellate Division (ATL-22-002292)"
-    file: "2025-10-27_NJSC_ATL-22-002292_Barber_Certification_of_SupplementalRecord_and_Request_for_Transmittal_to_AppDiv.pdf"
+    label: "Supporting Certification (EF-3721525)"
+    file: "2025-10-27_EF-3721525_Supporting-Certification.pdf"
     path: "/cases/atl-22-002292/pcr/"
 
-  - date: 2022-11-01
-    label: "Unified PCR Petition (Public Redacted)"
-    file: "2022-pcr-petition-public.pdf"
-    path: "/cases/barber-nj-pcr-2022/"
+  - date: 2025-10-26
+    label: "Motion for Clarification (EF-3720750)"
+    file: "2025-10-26_EF-3720750_Motion-for-Clarification.pdf"
+    path: "/cases/atl-22-002292/pcr/"
 
-  - date: 2022-11-01
-    label: "Brief in Support of Post-Conviction Relief (Public Redacted)"
-    file: "2022-pcr-brief-public.pdf"
-    path: "/cases/barber-nj-pcr-2022/"
+  - date: 2025-10-20
+    label: "Legal Argument Supplement (EF-3708275)"
+    file: "2025-10-20_EF-3708275_Legal-Argument-Supplement.pdf"
+    path: "/cases/atl-22-002292/pcr/"
+
+  - date: 2025-10-15
+    label: "Affidavit in Support (EF-3697487)"
+    file: "2025-10-15_EF-3697487_Affidavit-in-Support.pdf"
+    path: "/cases/atl-22-002292/pcr/"
+
+  - date: 2025-10-14
+    label: "Exhibit Appendix (EF-3696023)"
+    file: "2025-10-14_EF-3696023_Exhibit-Appendix.pdf"
+    path: "/cases/atl-22-002292/pcr/"
+
+  - date: 2025-08-27
+    label: "PCR Motion Brief (EF-3590839)"
+    file: "2025-08-27_EF-3590839_PCR-Motion-Brief.pdf"
+    path: "/cases/atl-22-002292/pcr/"
+
+  - date: 2025-08-15
+    label: "Application for Reconsideration (EF-3565523)"
+    file: "2025-08-15_EF-3565523_Application-for-Reconsideration.pdf"
+    path: "/cases/atl-22-002292/pcr/"
+
+  - date: 2025-07-27
+    label: "Additional PCR Materials (EF-3522209)"
+    file: "2025-07-27_EF-3522209_Additional-Materials.pdf"
+    path: "/cases/atl-22-002292/pcr/"
+
+  - date: 2025-06-13
+    label: "Original Petition (EF-3432887)"
+    file: "2025-06-13_EF-3432887_Original-Petition.pdf"
+    path: "/cases/atl-22-002292/pcr/"
+
+  # --- ATL-22-002313 filings ---
+  - date: 2025-10-26
+    label: "PCR Addendum Filing (EF-3720751)"
+    file: "2025-10-26_EF-3720751_PCR-Addendum.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-10-20
+    label: "Affidavit & Appendix (EF-3708271)"
+    file: "2025-10-20_EF-3708271_Affidavit-and-Appendix.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-08-27
+    label: "Supplemental Brief (EF-3586824)"
+    file: "2025-08-27_EF-3586824_Supplemental-Brief.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-08-26
+    label: "Certification of Facts (EF-3589772)"
+    file: "2025-08-26_EF-3589772_Certification-of-Facts.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-07-27
+    label: "Clarification Submission (EF-3522215)"
+    file: "2025-07-27_EF-3522215_Clarification-Submission.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-06-18
+    label: "PCR Notice (EF-3441478)"
+    file: "2025-06-18_EF-3441478_PCR-Notice.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-05-23
+    label: "Statement of Issues (EF-3386111)"
+    file: "2025-05-23_EF-3386111_Statement-of-Issues.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-05-22
+    label: "Legal Argument Filing (EF-3384892)"
+    file: "2025-05-22_EF-3384892_Legal-Argument-Filing.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-05-21
+    label: "Initial Petition (EF-3381971)"
+    file: "2025-05-21_EF-3381971_Initial-Petition.pdf"
+    path: "/cases/atl-22-002313/pcr/"
+
+  - date: 2025-05-16
+    label: "Supporting Certification (EF-3370700)"
+    file: "2025-05-16_EF-3370700_Supporting-Certification.pdf"
+    path: "/cases/atl-22-002313/pcr/"
 ---
 
 {% include case-hero.html %}
 
 <section class="case-page">
+
   <header class="case-header">
-    <h1>State v. Barber – Post-Conviction Relief under R. 3:22</h1>
+    <h1>State v. Barber — Unified Post-Conviction Relief under R. 3:22</h1>
     <dl class="case-meta">
       <dt>Court</dt>
-      <dd>Superior Court of New Jersey, Law Division – Atlantic County, Criminal Part</dd>
+      <dd>Superior Court of New Jersey, Law Division — Atlantic County, Criminal Part</dd>
 
       <dt>Status</dt>
-      <dd>Active post-conviction relief proceedings pending decision</dd>
+      <dd>Active unified PCR proceedings across 2022 dockets</dd>
 
       <dt>Dockets</dt>
       <dd>
@@ -92,40 +178,22 @@ filings:
   <section>
     <h2>Overview</h2>
     <p>
-      These coordinated petitions seek post-conviction relief under
-      <strong>N.J. Ct. R. 3:22</strong>, alleging violations of the
+      These consolidated petitions pursue post-conviction relief under
+      <strong>N.J. Ct. R. 3:22</strong>, asserting violations of the
       <strong>Sixth</strong> and <strong>Fourteenth Amendments</strong>.
-      Across the related 2022 matters, the filings assert ineffective
-      assistance of counsel, suppression or mishandling of exculpatory
-      information, and broader due-process defects in charging,
-      adjudication, and post-judgment administration.
+      The filings allege ineffective assistance, suppression of
+      exculpatory material, and procedural irregularities across the
+      related 2022 prosecutions.
     </p>
   </section>
 
   <section>
-    <h2>Unified Legal Issues</h2>
+    <h2>Key Legal Questions</h2>
     <ul>
-      <li>
-        Whether trial counsel’s performance failed the standard set in
-        <em>Strickland v. Washington</em>, 466 U.S. 668 (1984), including
-        failures to investigate, advise, or preserve critical defenses.
-      </li>
-      <li>
-        Whether exculpatory or mitigating material was withheld, obscured,
-        or disclosed in a manner inconsistent with due process and
-        the State’s obligations.
-      </li>
-      <li>
-        Whether cumulative procedural irregularities, inconsistent
-        treatment across related dockets, or record gaps resulted in
-        a denial of fundamental fairness under the New Jersey Constitution
-        and the Fourteenth Amendment.
-      </li>
-      <li>
-        Whether post-conviction review itself has been compromised by
-        administrative delay, fragmented handling, or bias that frustrates
-        the remedial purposes of R. 3:22.
-      </li>
+      <li>Whether trial counsel’s conduct failed the <em>Strickland / Fritz</em> performance-prejudice standard.</li>
+      <li>Whether exculpatory or mitigating evidence was withheld contrary to <em>Brady v. Maryland</em>.</li>
+      <li>Whether procedural fragmentation across the 2022 dockets deprived petitioner of fundamental fairness.</li>
+      <li>Whether delay or administrative handling of the PCRs undermines the remedial purpose of <em>R. 3:22-1 et seq.</em></li>
     </ul>
   </section>
 
@@ -149,35 +217,26 @@ filings:
   <section>
     <h2>Procedural Posture</h2>
     <p>
-      The 2022 PCR petitions proceed in the Law Division as a unified
-      challenge to the underlying convictions and sentences. The court has
-      been asked to vacate or modify the judgments where constitutional error
-      is established and to schedule an evidentiary hearing under R. 3:22-10(b)
-      on disputed factual questions relevant to counsel performance, prejudice,
-      and withheld material.
-    </p>
-    <p class="text-muted">
-      Updated as new orders or filings become available.
+      The unified PCR petitions remain pending before the Law Division,
+      Atlantic County. Petitioner seeks vacatur or modification of
+      judgment where constitutional error is established and requests
+      an evidentiary hearing under <em>R. 3:22-10(b)</em>.
     </p>
   </section>
 
   <section>
-    <h2>Context &amp; Purpose</h2>
+    <h2>Context & Purpose</h2>
     <p>
-      This unified presentation exists to enhance transparency and public
-      understanding of New Jersey’s post-conviction review process. By
-      consolidating the 2022 records into a single accessible format, it
-      illustrates how constitutional claims are raised and answered within
-      the state system.
+      This record consolidates two companion PCR dockets from 2022 into
+      one transparent public file, illustrating the process and substance
+      of post-conviction review in New Jersey’s trial courts.
     </p>
   </section>
 
   <footer class="case-footer">
     <p class="text-muted">
-      This page is informational and does not replace the official court
-      record. Citations and characterizations of filings are provided in
-      good faith but should be verified against the docketed documents
-      maintained by the Superior Court of New Jersey.
+      Informational record — not an official substitute for the court docket.
+      Verify all citations and filings through the Superior Court of New Jersey.
     </p>
   </footer>
 </section>
