@@ -45,7 +45,7 @@ Each piece is written as both testimony and study: personal, doctrinal, and prac
       written as an ecclesiastical deed poll and notice of objection.
     </p>
     <p>
-      <a class="btn-primary" href="{{ '/faith/ecclesiastical-deed-poll/' | relative_url }}">
+      <a class="btn-primary" href="{{ '/posts/ecclesiastical-deed-poll/' | relative_url }}">
         Read the Deed & Commentary →
       </a>
     </p>
