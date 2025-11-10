@@ -1,7 +1,15 @@
 ---
-layout: default
+layout: post
 title: "Constitution as Covenant"
+date: 2025-11-10
 permalink: /faith/constitution-covenant/
+categories: [faith, law]
+tags:
+  - constitution
+  - republic
+  - democracy
+  - covenant
+  - federalism
 description: "A reflection on the United States’ republican structure, its constitutional guarantees, and the balance between democracy and law."
 ---
 
