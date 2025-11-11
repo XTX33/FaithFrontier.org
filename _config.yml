@@ -1,13 +1,27 @@
-# Faith Frontier Ecclesiastical Trust - Jekyll Site Configuration
-
 title: "Faith Frontier Ecclesiastical Trust"
-description: "Research and documentation at the intersection of law, faith, and public record—curating New Jersey case files, essays, and public-trust analysis."
-tagline: "Law, conscience, and stewardship in daylight."
+description: "A research and documentation platform led by Faith Frontier, integrating public records, ministry essays, and stewardship, including Tillerstead LLC as an auxiliary and operational arm."
+tagline: "Led by Faith Frontier — stewarding law, conscience, and ministry."
+
+# Faith Frontier is the managing trust/ministry. Tillerstead LLC is integrated as auxiliary.
+organization:
+  name: "Faith Frontier Ecclesiastical Trust"
+  role: "Managing Trust, Church, and Religious Home Ministry"
+
+auxiliary:
+  name: "Tillerstead LLC"
+  relationship: "Integrated auxiliary/operational entity"
+  hic: "13VH10808800"
+  address_line: "325 E. Jimmie Leeds Rd., Suite 7, #333"
+  address_locality: "Galloway"
+  address_region: "New Jersey"
+  postal_code: "08205"
+  phone: "(609) 665-9350"
+  email: "info@Tillerstead.com"
+
 url: "https://faithfrontier.org"
 baseurl: ""
 lang: "en"
 timezone: "America/New_York"
-
 markdown: kramdown
 kramdown:
   input: GFM
@@ -20,17 +34,12 @@ collections:
   cases:
     output: true
     permalink: "/cases/:name/"
-    # Source: _cases/
-
   essays:
     output: true
     permalink: "/faith/:name/"
-    # Source: _essays/
-
   docs:
     output: true
     permalink: "/docs/:name/"
-    # Source: _docs/
 
 defaults:
   - scope:
@@ -59,16 +68,6 @@ defaults:
     values:
       layout: "post"
 
-company:
-  name: "Tillerstead LLC"
-  hic: "13VH10808800"
-  address_line: "325 E. Jimmie Leeds Rd., Suite 7, #333"
-  address_locality: "Galloway"
-  address_region: "New Jersey"
-  postal_code: "08205"
-  phone: "(609) 665-9350"
-  email: "info@Tillerstead.com"
-
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -87,7 +86,3 @@ exclude:
   - .github
   - archives
   - assets
-
-# Additional config for clean structure:
-# Keep all content in _cases, _essays, _docs for Jekyll collections
-# 'assets' for static files/images, 'cases' and 'pages' can be used for exports or static HTML if needed
