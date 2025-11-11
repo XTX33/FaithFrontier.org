@@ -26,10 +26,11 @@ assets_path: "/cases/a-000313-25/"
 summary: >
   Unified record covering the 2024 street-crossing incident (ATL-24-001934)
   and its appellate continuation (A-000313-25). The filings document
-  Mr. Barber’s challenge to an unlawful detention by Officer Boyd, alleging
-  selective enforcement, retaliation, and ineffective counsel. The appeal
-  seeks correction of procedural defects and acknowledgment of constitutional
-  violations arising from the Law Division’s handling of the PCR petitions.
+  Devon Tyler Barber’s challenge to an unlawful detention by Officer Boyd,
+  alleging selective enforcement, retaliation, and ineffective counsel.
+  The appeal seeks correction of procedural defects and acknowledgment
+  of constitutional violations arising from the Law Division’s handling
+  of the PCR petitions.
 
 tags:
   - PCR
@@ -41,16 +42,22 @@ tags:
 ---
 
 ## I. Case Background
-The case originates from a **February 2024 street-crossing detention**
-by Officer Boyd in Atlantic County.  
-Mr. Barber declined to provide identification, asserting his right to privacy.
-The encounter escalated into citations and a grand-jury referral, later merged
-into **Law Division docket ATL-24-001934**.  
 
-Petitioner argues the incident and resulting prosecution violated the
-**Fourth Amendment**, **Fourteenth Amendment**, and **N.J. Const. art. I, ¶¶ 1 & 7**.
-He filed for post-conviction relief under *R. 3:22*, then appealed the Law
-Division’s failure to properly adjudicate or consolidate the claims.
+The case stems from a **February 2024 street-crossing stop** in Atlantic County involving Officer Boyd.  
+The officer alleged jaywalking, though Mr. Barber maintains he crossed lawfully—walking at right angles within the roadway after briefly stopping in the center of a marked crosswalk.  
+He asserts that Officer Boyd, observing from the Walmart parking area, mistakenly believed he had crossed from the nearby Woodworks apartment complex.
+
+When approached, Mr. Barber identified himself by name and website but declined to provide a date of birth or Social Security number, invoking his right to privacy.  
+Officer Boyd stated, *“I’m not going to give you a ticket,”* indicating the stop’s purpose appeared to be a warrant inquiry rather than pedestrian enforcement.  
+No interference with traffic or safety occurred.
+
+Despite this, the encounter was escalated into a charge of **obstructing the administration of law**—a claim Mr. Barber characterizes as frivolous and retaliatory.  
+He questions what “investigation” he could have obstructed, whether any lawful investigation or warrant existed, and on what reasonable, articulable suspicion such surveillance or detention was based.  
+The subsequent filings and grand-jury referral, he argues, reflect a **pattern of prosecutorial overreach and misconduct**, criminalizing his assertion of constitutional rights after prior incidents of governmental abuse.
+
+The resulting case was merged into **Law Division docket ATL-24-001934**.  
+Mr. Barber contends the stop, charge, and ensuing prosecution violated the **Fourth Amendment**, **Fourteenth Amendment**, and **Article I, ¶¶ 1 and 7 of the New Jersey Constitution**.  
+He sought post-conviction relief under *R.* 3:22 and appealed the Law Division’s failure to adjudicate or consolidate the record, maintaining that the proceedings exemplify systemic disregard for due process and equal protection.
 
 ---
 
