@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Case Records"
+permalink: /cases/
+description: "Active and historical court matters documented by the Faith Frontier Ecclesiastical Trust."
 ---
 
 <section class="section-intro">
@@ -12,8 +14,8 @@ title: "Case Records"
 </section>
 
 {% comment %}
-Only show cases that are not explicitly hidden (listed: false).
-Then split into featured and non-featured.
+Only show cases that are not explicitly hidden (listed: false),
+then split into featured and non-featured.
 {% endcomment %}
 {% assign visible_cases = site.cases | where_exp: "c", "c.listed != false" %}
 {% assign featured_cases = visible_cases | where: "featured", true %}
