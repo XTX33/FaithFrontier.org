@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
-  {% include head.html %}
-
+  <head>
+    {% include head.html %}
+    <!-- Faith Frontier Parchment Theme Styles and Fonts -->
+    <link rel="stylesheet" href="/assets/css/parchment.css">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook&family=EB+Garamond&display=swap" rel="stylesheet">
+  </head>
   <body class="ff-body">
     <a class="skip-link" href="#main">Skip to content</a>
-
     {% include header.html %}
-
     <main id="main" role="main" tabindex="-1">
       {{ content }}
     </main>
-
     {% include footer.html %}
-
     <!-- Core behavior: nav, smooth scroll, timelines, etc. -->
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
   </body>
