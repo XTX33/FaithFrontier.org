@@ -1,22 +1,18 @@
 ---
 layout: case
 published: true
-
 title: "State v. Barber — Unified Post-Conviction Relief (ATL-22-002292 & ATL-22-002313)"
 short_title: "State v. Barber (Unified PCR 2022)"
 permalink: /cases/barber-nj-pcr-2022/
-
 dockets:
   - "ATL-22-002292"
   - "ATL-22-002313"
 primary_docket: "ATL-22-002292"
-
 court: "Superior Court of New Jersey — Law Division, Criminal Part"
 venue: "Atlantic County"
 case_type: "Post-Conviction Relief (N.J. Ct. R. 3:22)"
 role: "Petitioner / Defendant-Movant"
-
-status: "Active — unified PCR across 2022 matters"
+status: "Active — unified PCR across consolidated 2022 matters"
 filed: 2025-05-04
 judge: "Hon. (TBD)"
 track: "R. 3:22 Post-Conviction"
@@ -48,110 +44,19 @@ tags:
   - Due Process
   - Atlantic County
 
-assets_path: "/cases/barber-nj-pcr-2022/"
+assets_path: "/cases/atl-22-002292/pcr/"
 
 filings:
-  # --- ATL-22-002292 filings ---
-  - date: 2025-10-29
-    label: "PCR Supplemental Filing (EF-3727064)"
-    file: "2025-10-29_EF-3727064_PCR-Supplemental-Filing.pdf"
-    path: "/cases/atl-22-002292/pcr/"
+# --- ATL-22-002292 filings ---
+- date: 2025-10-26
+  label: "Petition for Post-Conviction Relief with Certification and Memorandum"
+  file: "2025-10-26_NJSC_ATL-22-002292_Barber_Petition_for_PostConvictionRelief_with_Certification_and_Memorandum.pdf"
+  path: "/cases/atl-22-002292/pcr/"
 
-  - date: 2025-10-27
-    label: "Supporting Certification (EF-3721525)"
-    file: "2025-10-27_EF-3721525_Supporting-Certification.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-10-26
-    label: "Motion for Clarification (EF-3720750)"
-    file: "2025-10-26_EF-3720750_Motion-for-Clarification.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-10-20
-    label: "Legal Argument Supplement (EF-3708275)"
-    file: "2025-10-20_EF-3708275_Legal-Argument-Supplement.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-10-15
-    label: "Affidavit in Support (EF-3697487)"
-    file: "2025-10-15_EF-3697487_Affidavit-in-Support.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-10-14
-    label: "Exhibit Appendix (EF-3696023)"
-    file: "2025-10-14_EF-3696023_Exhibit-Appendix.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-08-27
-    label: "PCR Motion Brief (EF-3590839)"
-    file: "2025-08-27_EF-3590839_PCR-Motion-Brief.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-08-15
-    label: "Application for Reconsideration (EF-3565523)"
-    file: "2025-08-15_EF-3565523_Application-for-Reconsideration.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-07-27
-    label: "Additional PCR Materials (EF-3522209)"
-    file: "2025-07-27_EF-3522209_Additional-Materials.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  - date: 2025-06-13
-    label: "Original Petition (EF-3432887)"
-    file: "2025-06-13_EF-3432887_Original-Petition.pdf"
-    path: "/cases/atl-22-002292/pcr/"
-
-  # --- ATL-22-002313 filings ---
-  - date: 2025-10-26
-    label: "PCR Addendum Filing (EF-3720751)"
-    file: "2025-10-26_EF-3720751_PCR-Addendum.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-10-20
-    label: "Affidavit & Appendix (EF-3708271)"
-    file: "2025-10-20_EF-3708271_Affidavit-and-Appendix.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-08-27
-    label: "Supplemental Brief (EF-3586824)"
-    file: "2025-08-27_EF-3586824_Supplemental-Brief.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-08-26
-    label: "Certification of Facts (EF-3589772)"
-    file: "2025-08-26_EF-3589772_Certification-of-Facts.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-07-27
-    label: "Clarification Submission (EF-3522215)"
-    file: "2025-07-27_EF-3522215_Clarification-Submission.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-06-18
-    label: "PCR Notice (EF-3441478)"
-    file: "2025-06-18_EF-3441478_PCR-Notice.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-05-23
-    label: "Statement of Issues (EF-3386111)"
-    file: "2025-05-23_EF-3386111_Statement-of-Issues.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-05-22
-    label: "Legal Argument Filing (EF-3384892)"
-    file: "2025-05-22_EF-3384892_Legal-Argument-Filing.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-05-21
-    label: "Initial Petition (EF-3381971)"
-    file: "2025-05-21_EF-3381971_Initial-Petition.pdf"
-    path: "/cases/atl-22-002313/pcr/"
-
-  - date: 2025-05-16
-    label: "Supporting Certification (EF-3370700)"
-    file: "2025-05-16_EF-3370700_Supporting-Certification.pdf"
-    path: "/cases/atl-22-002313/pcr/"
+- date: 2025-10-27
+  label: "Certification of Supplemental Record and Request for Transmittal to Appellate Division"
+  file: "2025-10-27_NJSC_ATL-22-002292_Barber_Certification_of_Supplemental_Record_and_Request_for_Transmittal_to_AppDiv.pdf"
+  path: "/cases/atl-22-002292/pcr/"
 ---
 
 {% include case-hero.html %}
