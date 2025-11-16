@@ -74,8 +74,7 @@ filings:
 
       <dt>Dockets</dt>
       <dd>
-        <a href="{{ '/cases/atl-22-002292/' | relative_url }}">ATL-22-002292</a> •
-        <a href="{{ '/cases/atl-22-002313/' | relative_url }}">ATL-22-002313</a>
+        ATL-22-002292 • ATL-22-002313
       </dd>
     </dl>
   </header>
