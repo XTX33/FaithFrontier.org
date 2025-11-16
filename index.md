@@ -67,7 +67,7 @@ description: "A public documentation portal documenting New Jersey cases, faith 
         <li>Timelines showing how hearsay, slander, and errors can harden into “evidence.”</li>
         <li>Side-by-side comparisons of statutes, policies, and what actually happened on the ground</li>
       </ul>
-      <a class="card-link" href="{{ \'/public-trust/\' | relative_url }}" aria-label="Explore public trust research and analysis">Explore Public Trust Research</a>
+      <a class="card-link" href="{{ '/public-trust/' | relative_url }}" aria-label="Explore public trust research and analysis">Explore Public Trust Research</a>
     </article>
 
   </div>
