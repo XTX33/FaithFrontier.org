@@ -341,7 +341,7 @@ body_class: page-cases
 
             <p>
               <a class="card-link" href="{{ case.url | relative_url }}">
-                View full record and notes 
+                View full record and notes
               </a>
             </p>
           </article>
