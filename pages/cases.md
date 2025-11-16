@@ -273,8 +273,7 @@ body_class: page-cases
 
             <p>
               <a class="card-link" href="{{ case.url | relative_url }}">
-                View timeline and filings 
-              </a>
+                View timeline and filings</a>
             </p>
           </article>
         {% endfor %}
