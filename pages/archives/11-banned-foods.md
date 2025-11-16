@@ -17,7 +17,8 @@ description: "Educational repost of Food Revolution Network’s article on 11 ba
 </section>
 
 <section class="article-content" aria-label="Article content">
-  <article><header>
+  <article>
+    <header>
       <p><em>Repost from Food Revolution Network – “11 Banned Foods Americans Should Stop Eating.”</em></p>
     </header>
 
