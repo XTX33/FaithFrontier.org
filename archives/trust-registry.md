@@ -4,7 +4,7 @@ title: "Trust Custodianship Registry"
 permalink: /archives/trust-registry/
 ---
 
-<section class="trust-registry" aria-label="Content section">
+<section class="trust-registry" aria-label="Trust Custodianship Registry">
   <style>
     /*——palette & rhythm (scoped to .trust-registry)——*/
     .trust-registry {
