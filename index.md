@@ -52,7 +52,7 @@ description: "A public documentation portal documenting New Jersey cases, faith 
         <li>Essays on consent, covenant, stewardship, and unequal yokes</li>
         <li>How anger, grief, repentance, and hope coexist with litigation strategy</li>
       </ul>
-      <a class="card-link" href="{{ '/faith/' | relative_url }}">Read Essays and Faith Notes </a>
+      <a class="card-link" href="{{ '/faith/' | relative_url }}">Read Essays and Faith Notes</a>
     </article>
 
         <article class="feature-card">
