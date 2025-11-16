@@ -51,7 +51,7 @@ Faith Frontier exists to:
 
 faithfrontier.org/
 ├── _cases/               # Case pages (each court matter)
-│    ├── njta-v-barber.md
+│    ├── atl-dc-007956-25.md  # NJTA v. Barber
 │    ├── usdj-1-22-cv-06206.md
 │    └── usdj-1-25-cv-15641.md
 │
