@@ -132,6 +132,6 @@ description: "A public documentation portal documenting New Jersey cases, faith 
   </p>
   <div class="cta-actions">
     <a class="btn-primary" href="{{ \'/cases/\' | relative_url }}" aria-label="Browse case records and dockets">Browse Case Records</a>
-    <a class="btn-ghost" href="{{ \'/faith/\' | relative_url }}" aria-label="Read faith and doctrine reflections">Explore Faith Reflections</a>
+    <a class="btn-ghost" href="{{ '/faith/' | relative_url }}" aria-label="Read faith and doctrine reflections">Explore Faith Reflections</a>
   </div>
 </section>
