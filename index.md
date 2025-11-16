@@ -37,7 +37,7 @@ description: "A public documentation portal documenting New Jersey cases, faith 
         <li>Trace key dates: arrest, detention, hearings, orders, and appeals</li>
         <li>Watch how boilerplate denials and “standard language” operate in practice</li>
       </ul>
-      <a class="card-link" href="{{ '/cases/' | relative_url }}">View Case Summaries and Documents </a>
+      <a class="card-link" href="{{ '/cases/' | relative_url }}">View Case Summaries and Documents</a>
     </article>
 
         <article class="feature-card">
